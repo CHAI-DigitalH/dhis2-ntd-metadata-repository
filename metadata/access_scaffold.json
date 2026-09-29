@@ -1,0 +1,49 @@
+{
+  "_comment": "Generic, instance-agnostic access scaffold shipped with the NTD package (NOT Sierra Leone accounts). Three roles (capabilities) + two groups (sharing targets). install.py imports these, then shares dashboards/visualizations/maps/indicator groups to the NTD Users group (view) and datasets + category options to the NTD Data Entry group (data capture). The shipped configuration stays STATIC for every non-superuser: no role has the Maintenance app or any metadata-create authority. Adopters create users and assign, per user, a role + group membership(s) + org-unit scope. The System Administrator is the existing instance superuser (not shipped). ESPEN Connector app access is a separate per-adopter step (see docs/setup.md). Role authorities use the classic M_dhis-web-* app names; verify them on your DHIS2 version.",
+  "userRoles": [
+    {
+      "id": "NTDadminRol",
+      "name": "NTD Administrator",
+      "description": "National programme / M&E: view all dashboards, enter national datasets, run validation, export (incl. dependency JSON), build own visualizations. Cannot edit the shipped configuration (no Maintenance, no metadata-create authorities).",
+      "authorities": [
+        "F_DATAVALUE_ADD",
+        "F_DATAVALUE_DELETE",
+        "F_RUN_VALIDATION",
+        "F_METADATA_EXPORT",
+        "F_VISUALIZATION_PUBLIC_ADD",
+        "F_MAP_PUBLIC_ADD",
+        "M_dhis-web-dashboard",
+        "M_dhis-web-data-visualizer",
+        "M_dhis-web-maps",
+        "M_dhis-web-dataentry",
+        "M_dhis-web-data-quality",
+        "M_dhis-web-import-export"
+      ]
+    },
+    {
+      "id": "NTDentryRol",
+      "name": "NTD Data Entry",
+      "description": "Enter/edit data for the org units in the user's scope; view dashboards. No configuration editing.",
+      "authorities": [
+        "F_DATAVALUE_ADD",
+        "F_DATAVALUE_DELETE",
+        "M_dhis-web-dataentry",
+        "M_dhis-web-dashboard"
+      ]
+    },
+    {
+      "id": "NTDviewrRol",
+      "name": "NTD Viewer",
+      "description": "Read-only: view and download dashboards, visualizations, and maps. No data entry, no editing.",
+      "authorities": [
+        "M_dhis-web-dashboard",
+        "M_dhis-web-data-visualizer",
+        "M_dhis-web-maps"
+      ]
+    }
+  ],
+  "userGroups": [
+    { "id": "NTDusersGrp", "name": "NTD Users" },
+    { "id": "NTDentryGrp", "name": "NTD Data Entry" }
+  ]
+}

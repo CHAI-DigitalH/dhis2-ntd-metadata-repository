@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# NTD metadata package — country configuration
+#
+# Copy this file, fill in your country's values, and pass it to configure.py
+# (or to install.py, which calls configure.py for you):
+#
+#     python3 tools/configure.py \
+#         --in  metadata/full_package.json \
+#         --out metadata/full_package.<country>.json \
+#         --config country-config.yaml
+#
+# The heavy lifting of country adaptation is done by RELATIVIZING the dashboards
+# in Data Visualizer BEFORE export (org-unit selections set to "Level: District"
+# or the user/root org unit; periods set to relative). When that is done, the only
+# per-country change left is the single national root org unit below — everything
+# else follows automatically. See docs/adaptation.md.
+# ─────────────────────────────────────────────────────────────────────────────
+
+country: "REPLACE_ME"          # e.g. "Uganda" — used only for logging/labels
+locale: "en"                    # primary dashboard language (informational)
+
+org_units:
+  # The level-1 (national) org unit UID in YOUR instance. install.py can detect
+  # this for you (GET /api/organisationUnits?level=1); this value is the fallback
+  # / override. Charts that reference the national unit are remapped to this.
+  national_uid: "REPLACE_ME"    # Sierra Leone reference was: ImspTQPwCqd
+
+  # Your DISTRICT org-unit level. The installer assigns every dataset to the national
+  # root + all org units at this level, so data entry works out of the box. Sierra
+  # Leone's districts are level 2; set this to your district level (e.g. 3 if your
+  # hierarchy is National > Region > District). Also used for the maps-geometry check.
+  data_entry_level: 2
+
+  # OPTIONAL. Only needed if some charts were NOT relativized and still pin
+  # specific districts. Map each Sierra Leone district UID (left) to the matching
+  # district UID in YOUR instance (right). Leave empty if all charts are relativized.
+  district_map: {}
+  #   O6uvpzGd5pu: "REPLACE_ME"   # SL: Bo        -> your district UID
+  #   fdc6uOvgoji: "REPLACE_ME"   # SL: Bombali   -> your district UID
+
+periods:
+  # Period relativization is best done by hand in Data Visualizer before export.
+  # If you left any fixed-period charts in the package, set this to true to have
+  # configure.py apply a best-effort relative period to visualizations.
+  relativize: false
+  relative_period: "LAST_12_MONTHS"
+
+options:
+  # Strip audit/ownership/sharing fields from the package before import. Safe to
+  # leave true even if you exported with "skip sharing" — it is idempotent.
+  scrub_audit_and_sharing: true
+
+  # Strip datasets' org-unit assignments (they point at the reference country and
+  # would import as dangling refs). The installer reassigns them after import
+  # (national + data_entry_level). Leave true unless you are remapping via district_map.
+  strip_dataset_org_units: true
+
+# The installer imports metadata/access_scaffold.json (3 roles — NTD Administrator / NTD
+# Data Entry / NTD Viewer — + 2 groups — NTD Users, NTD Data Entry) and applies a sharing
+# pattern so dashboards are visible and datasets/category options are enterable out of the
+# box. Afterwards, create users and assign each a role + group(s) + org-unit scope (see
+# docs/setup.md "Sharing and access control"). Disable with install.py --no-scaffold /
+# --no-sharing if your instance already has an access model you'd rather use.

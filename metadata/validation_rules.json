@@ -1,0 +1,270 @@
+{
+  "validationRules": [
+    {
+      "id": "NTDvrLFcovH",
+      "name": "LF Coverage Rate implausibly high",
+      "description": "Flags LF - Coverage Rate (%) above 110%, which almost always indicates a stale or undersized targeted-population denominator rather than genuine over-treatment. See indicators.md Coverage Rate interpretation note.",
+      "instruction": "Review the targeted population denominator for this district/period before treating this as a true coverage finding.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{XBa46KPfVob}",
+        "description": "LF - Coverage Rate (%)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrONcovH",
+      "name": "Oncho Coverage Rate implausibly high",
+      "description": "Flags Oncho - Coverage Rate (%) above 110%, which almost always indicates a stale or undersized targeted-population denominator rather than genuine over-treatment. See indicators.md Coverage Rate interpretation note.",
+      "instruction": "Review the targeted population denominator for this district/period before treating this as a true coverage finding.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{pOm2P6euSOk}",
+        "description": "Oncho - Coverage Rate (%)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrSHcovH",
+      "name": "SCH Coverage Rate implausibly high",
+      "description": "Flags SCH - Coverage Rate (%) above 110%, which almost always indicates a stale or undersized targeted-population denominator rather than genuine over-treatment. See indicators.md Coverage Rate interpretation note.",
+      "instruction": "Review the targeted population denominator for this district/period before treating this as a true coverage finding.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{LYDWDY2BWYs}",
+        "description": "SCH - Coverage Rate (%)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrSTcovH",
+      "name": "STH Coverage Rate implausibly high",
+      "description": "Flags STH - Coverage Rate (%) above 110%, which almost always indicates a stale or undersized targeted-population denominator rather than genuine over-treatment. See indicators.md Coverage Rate interpretation note.",
+      "instruction": "Review the targeted population denominator for this district/period before treating this as a true coverage finding.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{een3XnZX69s}",
+        "description": "STH - Coverage Rate (%)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrLFsum1",
+      "name": "LF Coverage + Refusal Rate exceeds plausible total",
+      "description": "Flags when LF Coverage Rate (%) plus Refusal Rate (%) together exceed 110%. Treated and not-treated populations are both measured against the same targeted-population denominator, so their sum should not substantially exceed 100% of it.",
+      "instruction": "Check whether treated and not-treated figures were entered against the correct district and period \u2014 a combined total this high often indicates a data entry or denominator mismatch.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{XBa46KPfVob}+#{YaOECfS0F2p}",
+        "description": "LF Coverage Rate + Refusal Rate",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrONsum1",
+      "name": "Oncho Coverage + Refusal Rate exceeds plausible total",
+      "description": "Flags when Oncho Coverage Rate (%) plus Refusal Rate (%) together exceed 110%. Treated and not-treated populations are both measured against the same targeted-population denominator, so their sum should not substantially exceed 100% of it.",
+      "instruction": "Check whether treated and not-treated figures were entered against the correct district and period \u2014 a combined total this high often indicates a data entry or denominator mismatch.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{pOm2P6euSOk}+#{eKkIi6V7isc}",
+        "description": "Oncho Coverage Rate + Refusal Rate",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrSHsum1",
+      "name": "SCH Coverage + Refusal Rate exceeds plausible total",
+      "description": "Flags when SCH Coverage Rate (%) plus Refusal Rate (%) together exceed 110%. Treated and not-treated populations are both measured against the same targeted-population denominator, so their sum should not substantially exceed 100% of it.",
+      "instruction": "Check whether treated and not-treated figures were entered against the correct district and period \u2014 a combined total this high often indicates a data entry or denominator mismatch.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{LYDWDY2BWYs}+#{hWzV6g0xYpl}",
+        "description": "SCH Coverage Rate + Refusal Rate",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrSTsum1",
+      "name": "STH Coverage + Refusal Rate exceeds plausible total",
+      "description": "Flags when STH Coverage Rate (%) plus Refusal Rate (%) together exceed 110%. Treated and not-treated populations are both measured against the same targeted-population denominator, so their sum should not substantially exceed 100% of it.",
+      "instruction": "Check whether treated and not-treated figures were entered against the correct district and period \u2014 a combined total this high often indicates a data entry or denominator mismatch.",
+      "importance": "MEDIUM",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{een3XnZX69s}+#{DepeAmyR3FY}",
+        "description": "STH Coverage Rate + Refusal Rate",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "110",
+        "description": "Plausibility ceiling (110%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrDrgWL1",
+      "name": "Drug wastage and loss exceeds quantity received",
+      "description": "Flags when the sum of drugs wasted and drugs lost exceeds the number of tablets received in the same period/org unit. This is a logical impossibility \u2014 outflow due to wastage/loss cannot exceed total inflow \u2014 and indicates either a data entry error or a missing prior-stock carryover that should be reflected via the 'remain from previous MDA' data element instead.",
+      "instruction": "Check whether wasted/lost figures were entered against the correct period, or whether a carried-over stock balance should be added to the comparison.",
+      "importance": "HIGH",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Monthly",
+      "leftSide": {
+        "expression": "#{f1U4RH51PFz}+#{k2OmpZNCiaE}",
+        "description": "Drugs wasted + Drugs lost",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "#{fLPMRui5pm3}",
+        "description": "Number of tablets received",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      }
+    },
+    {
+      "id": "NTDvrDrgNg1",
+      "name": "Drug stock balance after MDA is negative",
+      "description": "Flags a negative value for (H) Actual number of tablets remain after MDA. Physical stock cannot be negative \u2014 a negative value indicates a data entry error or a sign convention mismatch in how the figure was calculated before entry.",
+      "instruction": "Re-check the stock count and entry for this period/org unit. This data element should always be zero or positive.",
+      "importance": "HIGH",
+      "operator": "greater_than_or_equal_to",
+      "periodType": "Monthly",
+      "leftSide": {
+        "expression": "#{QQhjsLUuU5m}",
+        "description": "Actual remaining stock after MDA",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "0",
+        "description": "Zero floor",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrTFsur1",
+      "name": "Trachoma TF1-9 % surveillance survey out of plausible range",
+      "description": "Flags TF1-9 % surveillance survey values above 100% or below 0% \u2014 a percentage value outside this range is a data entry error, since this is reported directly as a prevalence percentage with no DHIS2-calculated denominator to debug.",
+      "instruction": "Check the original survey report for a transcription error.",
+      "importance": "HIGH",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{AQUFPlseXfo}",
+        "description": "TF1-9 % surveillance survey",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "100",
+        "description": "Upper bound (100%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrTFimp1",
+      "name": "Trachoma TF1-9 % impact survey out of plausible range",
+      "description": "Flags TF1-9 % impact survey values above 100% or below 0% \u2014 a percentage value outside this range is a data entry error, since this is reported directly as a prevalence percentage with no DHIS2-calculated denominator to debug.",
+      "instruction": "Check the original survey report for a transcription error.",
+      "importance": "HIGH",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{akcEiBEVnD1}",
+        "description": "TF1-9 % impact survey",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "100",
+        "description": "Upper bound (100%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrTTsur1",
+      "name": "Trachoma TT % surveillance survey out of plausible range",
+      "description": "Flags TT % surveillance survey values above 100% or below 0% \u2014 a percentage value outside this range is a data entry error, since this is reported directly as a prevalence percentage with no DHIS2-calculated denominator to debug.",
+      "instruction": "Check the original survey report for a transcription error.",
+      "importance": "HIGH",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{FGui2eCTtBG}",
+        "description": "TT % surveillance survey",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "100",
+        "description": "Upper bound (100%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    },
+    {
+      "id": "NTDvrTTimp1",
+      "name": "Trachoma TT % impact survey out of plausible range",
+      "description": "Flags TT % impact survey values above 100% or below 0% \u2014 a percentage value outside this range is a data entry error, since this is reported directly as a prevalence percentage with no DHIS2-calculated denominator to debug.",
+      "instruction": "Check the original survey report for a transcription error.",
+      "importance": "HIGH",
+      "operator": "less_than_or_equal_to",
+      "periodType": "Yearly",
+      "leftSide": {
+        "expression": "#{PR3XBXGC3dL}",
+        "description": "TT % impact survey",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING"
+      },
+      "rightSide": {
+        "expression": "100",
+        "description": "Upper bound (100%)",
+        "missingValueStrategy": "NEVER_SKIP"
+      }
+    }
+  ]
+}

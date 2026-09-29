@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Node / DHIS2 app build artifacts
+node_modules/
+**/node_modules/
+.d2/
+**/.d2/
+build/
+**/build/
+
+# Installer / configure artifacts (generated per-country at install time)
+metadata/full_package.configured.json
+*.configured.json
+
+# Local Claude Code settings
+.claude/settings.local.json

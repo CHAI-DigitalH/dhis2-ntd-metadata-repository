@@ -1,0 +1,16 @@
+country: "Sierra Leone (local test)"
+locale: "en"
+
+org_units:
+  # SL demo national root — matches the reference instance, so adaptation is a no-op.
+  national_uid: "ImspTQPwCqd"
+  data_entry_level: 2
+  district_map: {}
+
+periods:
+  relativize: false
+  relative_period: "LAST_12_MONTHS"
+
+options:
+  scrub_audit_and_sharing: true
+  strip_dataset_org_units: true

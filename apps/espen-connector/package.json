@@ -1,0 +1,20 @@
+{
+  "name": "espen-connector",
+  "version": "1.0.0",
+  "description": "DHIS2 → ESPEN NTD data connector for Sierra Leone",
+  "license": "MIT",
+  "scripts": {
+    "start": "d2-app-scripts start",
+    "build": "d2-app-scripts build",
+    "test":  "d2-app-scripts test"
+  },
+  "dependencies": {
+    "@dhis2/app-runtime": "^3.17.0",
+    "@dhis2/ui":          "^10.16.2",
+    "react":              "^18.2.0",
+    "react-dom":          "^18.2.0"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^12.11.1"
+  }
+}
