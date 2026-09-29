@@ -69,4 +69,4 @@ These are documented in detail in [setup.md](./docs/setup.md), summarized here:
 
 ## Acknowledgements
 
-Built by CHAI Sierra Leone. Design conventions informed by WHO and HISP's DHIS2 Health Data Toolkit metadata packages (dhis2.org/health-data-toolkit), the official NTD Overarching Module documentation, and the open-source NTD DHIS2 repository pattern.
+Built by CHAI. Design conventions informed by WHO and HISP's DHIS2 Health Data Toolkit metadata packages (dhis2.org/health-data-toolkit), the official NTD Overarching Module documentation, and the open-source NTD DHIS2 repository pattern.
