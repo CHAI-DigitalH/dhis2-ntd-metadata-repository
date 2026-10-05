@@ -2,7 +2,7 @@
 
 A DHIS2-based metadata repository and dashboard suite for routine reporting and monitoring of five Neglected Tropical Diseases (NTDs): Lymphatic Filariasis (LF), Onchocerciasis (Oncho), Schistosomiasis (SCH), Soil-Transmitted Helminths (STH), and Trachoma. Built as a proof-of-concept Digital Public Good (DPG) with Sierra Leone as the reference implementation, designed to be replicable and adaptable for other PC-NTD-endemic countries.
 
-This repository was developed by CHAI Sierra Leone. It draws on design conventions established by WHO and HISP's official DHIS2 health data toolkit packages (Malaria, RMNCAH, NTD Overarching Module), and is intended to complement — not replace — the official WHO NTD Overarching Module for countries that need a PC-NTD-focused, dashboard-first implementation.
+This repository was developed by CHAI Digital health. It draws on design conventions established by WHO and HISP's official DHIS2 health data toolkit packages (Malaria, RMNCAH, NTD Overarching Module), and is intended to complement — not replace — the official WHO NTD Overarching Module for countries that need a PC-NTD-focused, dashboard-first implementation.
 
 ## What this is
 
