@@ -1,6 +1,6 @@
 # Contributing
 
-This repository is a proof-of-concept Digital Public Good, built by CHAI Sierra Leone. It is intended to grow through real-world adoption and feedback from other NTD programmes, DHIS2 implementers, and the broader CHAI/WHO/HISP community.
+This repository is a proof-of-concept Digital Public Good, developed by CHAI Digital Health with Sierra Leone's NTD programme as the model implementation. It is intended to grow through real-world adoption and feedback from other NTD programmes, DHIS2 implementers, and the broader CHAI/WHO/HISP community.
 
 ## Before you contribute
 
@@ -33,7 +33,7 @@ If you adapt this repository for your country, even partially, please open an is
 
 ## Governance
 
-**[Placeholder — pending finalization alongside the license decision in README.md.]** Until a maintaining organization or working group is formally established, treat CHAI Sierra Leone's NTD programme team as the de facto point of contact via this repository's issue tracker.
+**[Placeholder — pending finalization alongside the license decision in README.md.]** Until a maintaining organization or working group is formally established, treat the CHAI Digital Health NTD team as the de facto point of contact via this repository's issue tracker.
 
 ## Code of conduct
 
