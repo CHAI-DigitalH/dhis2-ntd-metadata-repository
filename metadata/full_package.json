@@ -6063,10 +6063,6 @@
       "sorting": [],
       "series": [
         {
-          "dimensionItem": "ImspTQPwCqd",
-          "axis": 0
-        },
-        {
           "dimensionItem": "USER_ORGUNIT",
           "axis": 0
         }
@@ -11125,10 +11121,6 @@
       "sorting": [],
       "series": [
         {
-          "dimensionItem": "ImspTQPwCqd",
-          "axis": 0
-        },
-        {
           "dimensionItem": "USER_ORGUNIT",
           "axis": 0
         }
@@ -13071,10 +13063,6 @@
       "sorting": [],
       "series": [
         {
-          "dimensionItem": "ImspTQPwCqd",
-          "axis": 0
-        },
-        {
           "dimensionItem": "USER_ORGUNIT",
           "axis": 0
         }
@@ -15000,10 +14988,6 @@
       },
       "sorting": [],
       "series": [
-        {
-          "dimensionItem": "ImspTQPwCqd",
-          "axis": 0
-        },
         {
           "dimensionItem": "USER_ORGUNIT",
           "axis": 0

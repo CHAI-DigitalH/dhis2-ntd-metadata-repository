@@ -1,0 +1,1949 @@
+{
+  "categories": [
+    {
+      "name": "Trachoma child age",
+      "translations": [],
+      "shortName": "Trachoma child age",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "YxLIfu02W4i"
+        },
+        {
+          "id": "AcUtHJPmOgd"
+        }
+      ],
+      "id": "SZ7nYh3GvrE"
+    },
+    {
+      "name": "Trachoma Age",
+      "translations": [],
+      "shortName": "Trachoma Age",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "wfSh7kduwPm"
+        },
+        {
+          "id": "XEn3oJxiKM6"
+        },
+        {
+          "id": "YvdwrMcnux5"
+        },
+        {
+          "id": "EsRap3Zs2ag"
+        }
+      ],
+      "id": "xgFvyo5QTvQ"
+    },
+    {
+      "name": "PC NTD",
+      "translations": [],
+      "shortName": "PC NTD",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "etvuLmnV22J"
+        },
+        {
+          "id": "pepMNQRIOA0"
+        },
+        {
+          "id": "QGrysuLro1y"
+        },
+        {
+          "id": "shFOPKHvybD"
+        },
+        {
+          "id": "hGMTzS59lYj"
+        },
+        {
+          "id": "JNR6LlwvpOJ"
+        }
+      ],
+      "id": "zqnTb60vL5o"
+    },
+    {
+      "name": "Age",
+      "translations": [],
+      "shortName": "Age",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "xQ1IF5o9LK3"
+        },
+        {
+          "id": "Q3WL8yQpd0t"
+        },
+        {
+          "id": "UU6T3ZxrfIm"
+        }
+      ],
+      "id": "YzBljwf5m7g"
+    },
+    {
+      "name": "Sex",
+      "translations": [],
+      "shortName": "Sex",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "MW9dPqbw1Pl"
+        },
+        {
+          "id": "jxImR1MocGi"
+        }
+      ],
+      "id": "KoD8cueRK6e"
+    },
+    {
+      "name": "NTD PC Drug",
+      "translations": [],
+      "shortName": "NTD PC Drug",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": true,
+      "categoryOptions": [
+        {
+          "id": "T37fj62M8TR"
+        },
+        {
+          "id": "bCCKXjAGv4O"
+        },
+        {
+          "id": "wczvE5LhGuP"
+        },
+        {
+          "id": "uZo3DcZN3oJ"
+        },
+        {
+          "id": "frhcsQ0bMnv"
+        },
+        {
+          "id": "d9jhVpxkIFv"
+        },
+        {
+          "id": "lWNviNRzbvc"
+        },
+        {
+          "id": "WUsAxpZaNwm"
+        },
+        {
+          "id": "U0PtjVEWYxd"
+        }
+      ],
+      "id": "unECNCtF5MP"
+    }
+  ],
+  "categoryCombos": [
+    {
+      "code": "pcntd",
+      "name": "PC NTD",
+      "translations": [],
+      "categories": [
+        {
+          "id": "zqnTb60vL5o"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "RZ7C2OTs2rS"
+    },
+    {
+      "code": "age",
+      "name": "Age",
+      "translations": [],
+      "categories": [
+        {
+          "id": "YzBljwf5m7g"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "vCcaIQnY6I4"
+    },
+    {
+      "code": "age-sex",
+      "name": "Age - Sex",
+      "translations": [],
+      "categories": [
+        {
+          "id": "YzBljwf5m7g"
+        },
+        {
+          "id": "KoD8cueRK6e"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "J0cswuu7Q3l"
+    },
+    {
+      "code": "trch-age-sex",
+      "name": "Trachoma Age - Sex",
+      "translations": [],
+      "categories": [
+        {
+          "id": "xgFvyo5QTvQ"
+        },
+        {
+          "id": "KoD8cueRK6e"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "d0DZqMyIoez"
+    },
+    {
+      "code": "sex",
+      "name": "Sex",
+      "translations": [],
+      "categories": [
+        {
+          "id": "KoD8cueRK6e"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "APhpbHQfUnN"
+    },
+    {
+      "name": "Trachoma Child MDA age & sex",
+      "translations": [],
+      "categories": [
+        {
+          "id": "KoD8cueRK6e"
+        },
+        {
+          "id": "SZ7nYh3GvrE"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "RcJlnngGLvs"
+    },
+    {
+      "code": "ntd-drug",
+      "name": "NTD PC Drug",
+      "translations": [],
+      "categories": [
+        {
+          "id": "unECNCtF5MP"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "id": "azpCGWiAVdJ"
+    }
+  ],
+  "categoryOptions": [
+    {
+      "name": "PreSAC (1-4 years)",
+      "translations": [],
+      "shortName": "PreSAC (1-4 years)",
+      "formName": "PreSAC (1-4 years)",
+      "organisationUnits": [],
+      "id": "xQ1IF5o9LK3"
+    },
+    {
+      "name": "< 6mnts",
+      "translations": [],
+      "shortName": "< 6mnts",
+      "organisationUnits": [],
+      "id": "wfSh7kduwPm"
+    },
+    {
+      "name": "Unknown Age",
+      "translations": [],
+      "shortName": "Unknown",
+      "organisationUnits": [],
+      "id": "DrWshLgBLGr"
+    },
+    {
+      "name": "LF",
+      "translations": [],
+      "shortName": "LF",
+      "organisationUnits": [],
+      "id": "pepMNQRIOA0"
+    },
+    {
+      "name": "Trachoma",
+      "translations": [],
+      "shortName": "Trachoma",
+      "organisationUnits": [],
+      "id": "hGMTzS59lYj"
+    },
+    {
+      "name": ">= 15yrs",
+      "translations": [],
+      "shortName": ">= 15yrs",
+      "organisationUnits": [],
+      "id": "EsRap3Zs2ag"
+    },
+    {
+      "name": "Adult (15 years +)",
+      "translations": [],
+      "shortName": "Adult (15 years +)",
+      "formName": "Adult (15 years +)",
+      "organisationUnits": [],
+      "id": "UU6T3ZxrfIm"
+    },
+    {
+      "name": "NTD Male",
+      "translations": [],
+      "shortName": "NTD Male",
+      "organisationUnits": [],
+      "id": "MW9dPqbw1Pl"
+    },
+    {
+      "name": "OV",
+      "translations": [],
+      "shortName": "OV",
+      "organisationUnits": [],
+      "id": "etvuLmnV22J"
+    },
+    {
+      "name": "NTD Female",
+      "translations": [],
+      "shortName": "NTD Female",
+      "organisationUnits": [],
+      "id": "jxImR1MocGi"
+    },
+    {
+      "name": "Unknown Sex",
+      "translations": [],
+      "shortName": "Unknown Sex",
+      "organisationUnits": [],
+      "id": "TsCvid4bp5a"
+    },
+    {
+      "name": "SAC (5-14 years)",
+      "translations": [],
+      "shortName": "SAC (5-14 years)",
+      "formName": "SAC (5-14 years)",
+      "organisationUnits": [],
+      "id": "Q3WL8yQpd0t"
+    },
+    {
+      "name": "STH",
+      "translations": [],
+      "shortName": "STH",
+      "organisationUnits": [],
+      "id": "QGrysuLro1y"
+    },
+    {
+      "name": "6mnts - < 7yrs",
+      "translations": [],
+      "shortName": "6mnts - < 7yrs",
+      "organisationUnits": [],
+      "id": "XEn3oJxiKM6"
+    },
+    {
+      "name": "7yrs - < less than 15yrs",
+      "translations": [],
+      "shortName": "7yrs - < less than 15yrs",
+      "organisationUnits": [],
+      "id": "YvdwrMcnux5"
+    },
+    {
+      "name": "6mnts - 7yrs",
+      "translations": [],
+      "shortName": "6mnts - 7yrs",
+      "organisationUnits": [],
+      "id": "YxLIfu02W4i"
+    },
+    {
+      "name": "Leishmaniasis",
+      "translations": [],
+      "shortName": "Leishmaniasis",
+      "organisationUnits": [],
+      "id": "JNR6LlwvpOJ"
+    },
+    {
+      "name": "8 - 9yrs",
+      "translations": [],
+      "shortName": "8 - 9yrs",
+      "organisationUnits": [],
+      "id": "AcUtHJPmOgd"
+    },
+    {
+      "name": "SCH",
+      "translations": [],
+      "shortName": "SCH",
+      "organisationUnits": [],
+      "id": "shFOPKHvybD"
+    },
+    {
+      "name": "ALB drug",
+      "translations": [],
+      "shortName": "ALB drug",
+      "organisationUnits": [],
+      "id": "T37fj62M8TR"
+    },
+    {
+      "name": "IVM drug",
+      "translations": [],
+      "shortName": "IVM drug",
+      "organisationUnits": [],
+      "id": "uZo3DcZN3oJ"
+    },
+    {
+      "name": "DEC drug",
+      "translations": [],
+      "shortName": "DEC drug",
+      "organisationUnits": [],
+      "id": "wczvE5LhGuP"
+    },
+    {
+      "name": "PZQ drug",
+      "translations": [],
+      "shortName": "PZQ drug",
+      "organisationUnits": [],
+      "id": "frhcsQ0bMnv"
+    },
+    {
+      "name": "TEO drug",
+      "translations": [],
+      "shortName": "TEO drug",
+      "organisationUnits": [],
+      "id": "d9jhVpxkIFv"
+    },
+    {
+      "name": "Az Oral drug",
+      "translations": [],
+      "shortName": "Az Oral drug",
+      "organisationUnits": [],
+      "id": "WUsAxpZaNwm"
+    },
+    {
+      "name": "MBD drug",
+      "translations": [],
+      "shortName": "MBD drug",
+      "organisationUnits": [],
+      "id": "bCCKXjAGv4O"
+    },
+    {
+      "name": "Az Tabs drug",
+      "translations": [],
+      "shortName": "Az Tabs drug",
+      "organisationUnits": [],
+      "id": "lWNviNRzbvc"
+    },
+    {
+      "name": "Az Drops drug",
+      "translations": [],
+      "shortName": "Az Drops drug",
+      "organisationUnits": [],
+      "id": "U0PtjVEWYxd"
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "name": "Female, 8 - 9yrs",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RcJlnngGLvs"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "AcUtHJPmOgd"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "iLuX69UyyfH"
+    },
+    {
+      "name": "< 6mnts, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "wfSh7kduwPm"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "EYwZnxUdmah"
+    },
+    {
+      "name": "7yrs - < less than 15yrs, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "YvdwrMcnux5"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "mIi744IiPEa"
+    },
+    {
+      "code": "age-presac-sex-male",
+      "name": "PreSAC, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "xQ1IF5o9LK3"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "QpxakQfy6A8"
+    },
+    {
+      "code": "age-unknown-sex-unknown",
+      "name": "Unknown Age, Unknown Sex",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "TsCvid4bp5a"
+        },
+        {
+          "id": "DrWshLgBLGr"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "H7ifGsNDyyG"
+    },
+    {
+      "code": "age-presac",
+      "name": "PreSAC",
+      "translations": [],
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      },
+      "categoryOptions": [
+        {
+          "id": "xQ1IF5o9LK3"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "fGrqqCV6SV9"
+    },
+    {
+      "name": "6mnts - < 7yrs, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "XEn3oJxiKM6"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "sZl4jItSBKS"
+    },
+    {
+      "code": "pc-ntd-sch",
+      "name": "SCH",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      },
+      "categoryOptions": [
+        {
+          "id": "shFOPKHvybD"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "VvPBXlaJZU7"
+    },
+    {
+      "code": "age-adult-sex-female",
+      "name": "Adult, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "UU6T3ZxrfIm"
+        },
+        {
+          "id": "jxImR1MocGi"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "cKke8FSePIX"
+    },
+    {
+      "code": "age-adult-sex-male",
+      "name": "Adult, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "UU6T3ZxrfIm"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "gd2hXMUIHR2"
+    },
+    {
+      "code": "age-sac-sex-female",
+      "name": "SAC, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "Q3WL8yQpd0t"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "dM307212w1X"
+    },
+    {
+      "code": "age-unknown",
+      "name": "Unknown Age",
+      "translations": [],
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      },
+      "categoryOptions": [
+        {
+          "id": "DrWshLgBLGr"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "PaKT3ZveT09"
+    },
+    {
+      "code": "age-sac-sex-male",
+      "name": "SAC, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "MW9dPqbw1Pl"
+        },
+        {
+          "id": "Q3WL8yQpd0t"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "J28WZsF6S30"
+    },
+    {
+      "code": "sex-unknown",
+      "name": "Unknown Sex",
+      "translations": [],
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      },
+      "categoryOptions": [
+        {
+          "id": "TsCvid4bp5a"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "L4gWEVEdX7H"
+    },
+    {
+      "code": "pc-ntd-leish",
+      "name": "Leishmaniasis",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      },
+      "categoryOptions": [
+        {
+          "id": "JNR6LlwvpOJ"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "s2h9gyG55UN"
+    },
+    {
+      "name": "Female, 6mnts - 7yrs",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RcJlnngGLvs"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "YxLIfu02W4i"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Je7oNoIh5Uc"
+    },
+    {
+      "name": "Male, 6mnts - 7yrs",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RcJlnngGLvs"
+      },
+      "categoryOptions": [
+        {
+          "id": "YxLIfu02W4i"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "PdIdRBTwWJu"
+    },
+    {
+      "code": "age-presac-sex-unknown",
+      "name": "PreSAC, Unknown Sex",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "xQ1IF5o9LK3"
+        },
+        {
+          "id": "TsCvid4bp5a"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "mNXV9NwrhaB"
+    },
+    {
+      "name": "Male, 8 - 9yrs",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RcJlnngGLvs"
+      },
+      "categoryOptions": [
+        {
+          "id": "MW9dPqbw1Pl"
+        },
+        {
+          "id": "AcUtHJPmOgd"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "vTUrOko5TdY"
+    },
+    {
+      "name": "< 6mnts, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "wfSh7kduwPm"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "wIDGmhVKN60"
+    },
+    {
+      "name": "7yrs - < less than 15yrs, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "YvdwrMcnux5"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "T0R9FM3pZUs"
+    },
+    {
+      "code": "age-sac",
+      "name": "SAC",
+      "translations": [],
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      },
+      "categoryOptions": [
+        {
+          "id": "Q3WL8yQpd0t"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "bdllCaAg4ul"
+    },
+    {
+      "name": "6mnts - < 7yrs, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "XEn3oJxiKM6"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "QvBgSce1kL0"
+    },
+    {
+      "code": "age-presac-sex-female",
+      "name": "PreSAC, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "xQ1IF5o9LK3"
+        },
+        {
+          "id": "jxImR1MocGi"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "nlveO95Twbw"
+    },
+    {
+      "code": "pc-ntd-lf",
+      "name": "LF",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      },
+      "categoryOptions": [
+        {
+          "id": "pepMNQRIOA0"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "V0BMspy4wZa"
+    },
+    {
+      "code": "pc-ntd-trachoma",
+      "name": "Trachoma",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      },
+      "categoryOptions": [
+        {
+          "id": "hGMTzS59lYj"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "HSnNEBpKtmU"
+    },
+    {
+      "code": "age-sac-sex-unknown",
+      "name": "SAC, Unknown Sex",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "TsCvid4bp5a"
+        },
+        {
+          "id": "Q3WL8yQpd0t"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "rgMcFrdj8Ha"
+    },
+    {
+      "code": "sex-male",
+      "name": "Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      },
+      "categoryOptions": [
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Uz12FkwngBQ"
+    },
+    {
+      "code": "age-unknown-sex-female",
+      "name": "Unknown Age, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "DrWshLgBLGr"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "hRbNe9TgIRC"
+    },
+    {
+      "code": "age-adult-sex-unknown",
+      "name": "Adult, Unknown Sex",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "UU6T3ZxrfIm"
+        },
+        {
+          "id": "TsCvid4bp5a"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "p2uvQDkKN3h"
+    },
+    {
+      "code": "age-unknown-sex-male",
+      "name": "Unknown Age, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      },
+      "categoryOptions": [
+        {
+          "id": "DrWshLgBLGr"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "GDi1sFsrUMV"
+    },
+    {
+      "code": "age-adult",
+      "name": "Adult",
+      "translations": [],
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      },
+      "categoryOptions": [
+        {
+          "id": "UU6T3ZxrfIm"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "Jw3ZcNvE6jz"
+    },
+    {
+      "code": "sex-female",
+      "name": "Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "rnuj9z2p6SA"
+    },
+    {
+      "code": "pc-ntd-ov",
+      "name": "OV",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      },
+      "categoryOptions": [
+        {
+          "id": "etvuLmnV22J"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "tTPp1nAkGP7"
+    },
+    {
+      "name": ">= 15yrs, Male",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "EsRap3Zs2ag"
+        },
+        {
+          "id": "MW9dPqbw1Pl"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "P8DBczKtLvZ"
+    },
+    {
+      "name": ">= 15yrs, Female",
+      "translations": [],
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      },
+      "categoryOptions": [
+        {
+          "id": "jxImR1MocGi"
+        },
+        {
+          "id": "EsRap3Zs2ag"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "mCxX5f2HAhO"
+    },
+    {
+      "code": "pc-ntd-sth",
+      "name": "STH",
+      "translations": [],
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      },
+      "categoryOptions": [
+        {
+          "id": "QGrysuLro1y"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "kZdL7Ru8FXQ"
+    },
+    {
+      "code": "pcnd-pc-dec",
+      "name": "DEC drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "wczvE5LhGuP"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "AqRHUhgp2RY"
+    },
+    {
+      "code": "pcnd-pc-ivm",
+      "name": "IVM drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "uZo3DcZN3oJ"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "CsMFxkhnYcq"
+    },
+    {
+      "code": "pcnd-pc-azdrops",
+      "name": "Az Drops drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "U0PtjVEWYxd"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "m4DCdxEXfSn"
+    },
+    {
+      "code": "pcnd-pc-alb",
+      "name": "ALB drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "T37fj62M8TR"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "MeT8Ri0Un7p"
+    },
+    {
+      "code": "pcnd-pc-aztabs",
+      "name": "Az Tabs drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "lWNviNRzbvc"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "QAJlEP4JamS"
+    },
+    {
+      "code": "pcnd-pc-teo",
+      "name": "TEO drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "d9jhVpxkIFv"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "JXtGR2xIZZO"
+    },
+    {
+      "code": "pcnd-pc-mbd",
+      "name": "MBD drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "bCCKXjAGv4O"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "yCHFT92tBeM"
+    },
+    {
+      "code": "pcnd-pc-pzq",
+      "name": "PZQ drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "frhcsQ0bMnv"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "NM5Pl6pTGNA"
+    },
+    {
+      "code": "pcnd-pc-azoral",
+      "name": "Az Oral drug",
+      "translations": [],
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      },
+      "categoryOptions": [
+        {
+          "id": "WUsAxpZaNwm"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "D7ww4shn1cx"
+    }
+  ],
+  "optionSets": [
+    {
+      "name": "TF Category",
+      "translations": [],
+      "options": [
+        {
+          "id": "hhEnXZkfw2R"
+        },
+        {
+          "id": "HyS4eJApv1D"
+        },
+        {
+          "id": "jxo3V3GyxLn"
+        },
+        {
+          "id": "EoDOVd8PGkJ"
+        }
+      ],
+      "valueType": "INTEGER_POSITIVE",
+      "version": 4,
+      "id": "EWes7TR0oTX"
+    },
+    {
+      "name": "Trachome MDA strategy",
+      "translations": [],
+      "options": [
+        {
+          "id": "hYVuyBMHpe1"
+        },
+        {
+          "id": "EmiMuQzb4TV"
+        },
+        {
+          "id": "PoShNDsA1yS"
+        },
+        {
+          "id": "rE5CTSFPPDC"
+        }
+      ],
+      "valueType": "INTEGER_POSITIVE",
+      "version": 4,
+      "id": "OkaSIgQnuhP"
+    },
+    {
+      "name": "PC implemented Rounds",
+      "translations": [],
+      "options": [
+        {
+          "id": "GCpb52UDGcQ"
+        },
+        {
+          "id": "ZRzVIstFg9w"
+        },
+        {
+          "id": "kwz00qzq4sl"
+        },
+        {
+          "id": "GCpNrl8QuO5"
+        },
+        {
+          "id": "YOwbQdb6pBS"
+        }
+      ],
+      "valueType": "INTEGER_POSITIVE",
+      "version": 6,
+      "id": "fqyj0mlhMHr"
+    },
+    {
+      "name": "Endemicity - STH",
+      "translations": [],
+      "options": [
+        {
+          "id": "dE0J9tGM5yg"
+        },
+        {
+          "id": "K3BkUvxhMxP"
+        },
+        {
+          "id": "BNSTBlJCZOf"
+        },
+        {
+          "id": "kWuAVhp7wWR"
+        },
+        {
+          "id": "Zc81Wux2eq9"
+        },
+        {
+          "id": "SlWf2bM736t"
+        },
+        {
+          "id": "JoiV8SGlSLL"
+        },
+        {
+          "id": "nS6lBNcGudt"
+        },
+        {
+          "id": "vYc8DWoL3cW"
+        },
+        {
+          "id": "ezMltrC1wg2"
+        },
+        {
+          "id": "cVOyh1bgyne"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "version": 12,
+      "id": "W97GRllBQuW"
+    },
+    {
+      "name": "Intervention status",
+      "translations": [],
+      "options": [
+        {
+          "id": "Kgt0o5oF8Yk"
+        },
+        {
+          "id": "tDu9xFQZf69"
+        },
+        {
+          "id": "ixOOTVOMnRt"
+        }
+      ],
+      "valueType": "INTEGER_POSITIVE",
+      "version": 3,
+      "id": "USasrIMOghX"
+    },
+    {
+      "name": "Endemicity - SCH",
+      "translations": [],
+      "options": [
+        {
+          "id": "vOMQulMoPyn"
+        },
+        {
+          "id": "DYkXzPtEi0D"
+        },
+        {
+          "id": "tL68uYY012s"
+        },
+        {
+          "id": "jclnKDHSitu"
+        },
+        {
+          "id": "P9MY724BAtn"
+        },
+        {
+          "id": "VYvFYwKR6hP"
+        },
+        {
+          "id": "MEK78zrZe26"
+        },
+        {
+          "id": "pfmW8QiO6I4"
+        },
+        {
+          "id": "m5DagHAr3iK"
+        },
+        {
+          "id": "TDFDt0GL5da"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "version": 11,
+      "id": "LWDrvmEaUuL"
+    },
+    {
+      "name": "MDA Rounds",
+      "translations": [],
+      "options": [
+        {
+          "id": "iIWJVZyMUdt"
+        },
+        {
+          "id": "Zk0o7fbWuBg"
+        },
+        {
+          "id": "XX1SG2rtrld"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "version": 4,
+      "id": "p2NtyDtI5Jr"
+    },
+    {
+      "name": "Endemicity - LF and Oncho",
+      "translations": [],
+      "options": [
+        {
+          "id": "WMtVJAAOCoW"
+        },
+        {
+          "id": "njFa4Q5KAgy"
+        },
+        {
+          "id": "Ws7wCdPCQNU"
+        },
+        {
+          "id": "yAWh9hJTyKx"
+        },
+        {
+          "id": "b9ILrmTpN4C"
+        }
+      ],
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "version": 7,
+      "id": "ABacRryzWaX"
+    },
+    {
+      "name": "FGC status",
+      "translations": [],
+      "options": [
+        {
+          "id": "b5Ku0tb3BeZ"
+        },
+        {
+          "id": "OBEqg26JeJY"
+        },
+        {
+          "id": "QhalS8WaRpN"
+        }
+      ],
+      "valueType": "NUMBER",
+      "version": 3,
+      "id": "XRFjJftdyaY"
+    },
+    {
+      "name": "JRSM- Medicines for treatment of STH",
+      "translations": [],
+      "options": [
+        {
+          "id": "J62g2gorYpQ"
+        },
+        {
+          "id": "WV3aWnkD9ir"
+        }
+      ],
+      "valueType": "INTEGER_POSITIVE",
+      "version": 2,
+      "id": "INkaSqEovkl"
+    }
+  ],
+  "options": [
+    {
+      "code": "4",
+      "name": "T1 (PZQ+ALB/MBD)",
+      "translations": [],
+      "optionSet": {
+        "id": "fqyj0mlhMHr"
+      },
+      "sortOrder": 2,
+      "id": "kwz00qzq4sl"
+    },
+    {
+      "code": "0",
+      "name": "0 - non-endemic",
+      "translations": [],
+      "optionSet": {
+        "id": "ABacRryzWaX"
+      },
+      "sortOrder": 0,
+      "id": "WMtVJAAOCoW"
+    },
+    {
+      "code": "0",
+      "name": "0 - non-endemic",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 0,
+      "id": "vOMQulMoPyn"
+    },
+    {
+      "code": "1",
+      "name": "1 - endemic",
+      "translations": [],
+      "optionSet": {
+        "id": "ABacRryzWaX"
+      },
+      "sortOrder": 1,
+      "id": "njFa4Q5KAgy"
+    },
+    {
+      "code": "3",
+      "name": "Child MDA for children age 6mo\u20139.9yrs; to be administrated 4 weeks after regular MDA",
+      "translations": [],
+      "optionSet": {
+        "id": "OkaSIgQnuhP"
+      },
+      "sortOrder": 2,
+      "id": "PoShNDsA1yS"
+    },
+    {
+      "code": "5",
+      "name": "T2 (PZQ)",
+      "translations": [],
+      "optionSet": {
+        "id": "fqyj0mlhMHr"
+      },
+      "sortOrder": 3,
+      "id": "GCpNrl8QuO5"
+    },
+    {
+      "code": "0",
+      "name": "0 - non-endemic",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 0,
+      "id": "dE0J9tGM5yg"
+    },
+    {
+      "code": "4",
+      "name": "4 - status unknown",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 1,
+      "id": "K3BkUvxhMxP"
+    },
+    {
+      "code": "22",
+      "name": "22 - prevalence 20%-49%, keep baseline frequency",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 9,
+      "id": "ezMltrC1wg2"
+    },
+    {
+      "code": "31",
+      "name": "31 - prevalence >50%, 3 rounds annually",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 10,
+      "id": "cVOyh1bgyne"
+    },
+    {
+      "code": "1",
+      "name": "TF 5-9.9%",
+      "translations": [],
+      "optionSet": {
+        "id": "EWes7TR0oTX"
+      },
+      "sortOrder": 1,
+      "id": "HyS4eJApv1D"
+    },
+    {
+      "code": "3",
+      "name": "3 - high prevalence (50% and above), 2 rounds annually",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 5,
+      "id": "SlWf2bM736t"
+    },
+    {
+      "code": "5",
+      "name": "5 - endemic, prevalence unknown",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 2,
+      "id": "tL68uYY012s"
+    },
+    {
+      "code": "19",
+      "name": "19 - endemic, pending impact survey",
+      "translations": [],
+      "optionSet": {
+        "id": "ABacRryzWaX"
+      },
+      "sortOrder": 3,
+      "id": "yAWh9hJTyKx"
+    },
+    {
+      "code": "1",
+      "name": "1 - low prevalence (less than 20%), no MDA",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 3,
+      "id": "kWuAVhp7wWR"
+    },
+    {
+      "code": "2",
+      "name": "Additional annual round(s)",
+      "translations": [],
+      "optionSet": {
+        "id": "OkaSIgQnuhP"
+      },
+      "sortOrder": 1,
+      "id": "EmiMuQzb4TV"
+    },
+    {
+      "code": "11",
+      "name": "11 - prevalence <10%, 1 round every 2/3 years",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 7,
+      "id": "pfmW8QiO6I4"
+    },
+    {
+      "code": "3",
+      "name": "Mid-cycle",
+      "translations": [],
+      "optionSet": {
+        "id": "USasrIMOghX"
+      },
+      "sortOrder": 2,
+      "id": "ixOOTVOMnRt"
+    },
+    {
+      "code": "31",
+      "name": "31 - prevalence >50%, 1 round annually and hot spots with additional round",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 9,
+      "id": "TDFDt0GL5da"
+    },
+    {
+      "code": "2",
+      "name": "TF 10-29.9%",
+      "translations": [],
+      "optionSet": {
+        "id": "EWes7TR0oTX"
+      },
+      "sortOrder": 2,
+      "id": "jxo3V3GyxLn"
+    },
+    {
+      "code": "1",
+      "name": "1 - low prevalence (less than 10%), no MDA",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 3,
+      "id": "jclnKDHSitu"
+    },
+    {
+      "code": "1",
+      "name": "Round 1",
+      "translations": [],
+      "optionSet": {
+        "id": "p2NtyDtI5Jr"
+      },
+      "sortOrder": 0,
+      "id": "iIWJVZyMUdt"
+    },
+    {
+      "code": "2",
+      "name": "Round 2",
+      "translations": [],
+      "optionSet": {
+        "id": "p2NtyDtI5Jr"
+      },
+      "sortOrder": 1,
+      "id": "Zk0o7fbWuBg"
+    },
+    {
+      "code": "4",
+      "name": "4 - status unknown",
+      "translations": [],
+      "optionSet": {
+        "id": "ABacRryzWaX"
+      },
+      "sortOrder": 2,
+      "id": "Ws7wCdPCQNU"
+    },
+    {
+      "code": "21",
+      "name": "21 - prevalence 10%-49%, 1 round annually",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 8,
+      "id": "m5DagHAr3iK"
+    },
+    {
+      "code": "1",
+      "name": "MDA1 (IVM+ALB)",
+      "translations": [],
+      "optionSet": {
+        "id": "fqyj0mlhMHr"
+      },
+      "sortOrder": 0,
+      "id": "GCpb52UDGcQ"
+    },
+    {
+      "code": "3",
+      "name": "TF >=30%",
+      "translations": [],
+      "optionSet": {
+        "id": "EWes7TR0oTX"
+      },
+      "sortOrder": 3,
+      "id": "EoDOVd8PGkJ"
+    },
+    {
+      "code": "1",
+      "name": "More frequent than annual",
+      "translations": [],
+      "optionSet": {
+        "id": "OkaSIgQnuhP"
+      },
+      "sortOrder": 0,
+      "id": "hYVuyBMHpe1"
+    },
+    {
+      "code": "4",
+      "name": "4 - status unknown",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 1,
+      "id": "DYkXzPtEi0D"
+    },
+    {
+      "code": "1",
+      "name": "impact_survey_due",
+      "translations": [],
+      "optionSet": {
+        "id": "USasrIMOghX"
+      },
+      "sortOrder": 0,
+      "id": "Kgt0o5oF8Yk"
+    },
+    {
+      "code": "99",
+      "name": "99 - cleared TAS, no longer require PC",
+      "translations": [],
+      "optionSet": {
+        "id": "ABacRryzWaX"
+      },
+      "sortOrder": 4,
+      "id": "b9ILrmTpN4C"
+    },
+    {
+      "code": "0",
+      "name": "TF <5%",
+      "translations": [],
+      "optionSet": {
+        "id": "EWes7TR0oTX"
+      },
+      "sortOrder": 0,
+      "id": "hhEnXZkfw2R"
+    },
+    {
+      "code": "21",
+      "name": "21 - prevalence 10%-19%, 1 round annually",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 8,
+      "id": "vYc8DWoL3cW"
+    },
+    {
+      "code": "99",
+      "name": "99 - prevalence <2%, surveillance",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 6,
+      "id": "JoiV8SGlSLL"
+    },
+    {
+      "code": "99",
+      "name": "99 - prevalence <1%, surveillance",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 6,
+      "id": "MEK78zrZe26"
+    },
+    {
+      "code": "2",
+      "name": "2 - moderate prevalence (10%-49%), 1 round annually",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 4,
+      "id": "P9MY724BAtn"
+    },
+    {
+      "code": "2",
+      "name": "surveillance_survey_due",
+      "translations": [],
+      "optionSet": {
+        "id": "USasrIMOghX"
+      },
+      "sortOrder": 1,
+      "id": "tDu9xFQZf69"
+    },
+    {
+      "code": "4",
+      "name": "Mid term survey",
+      "translations": [],
+      "optionSet": {
+        "id": "OkaSIgQnuhP"
+      },
+      "sortOrder": 3,
+      "id": "rE5CTSFPPDC"
+    },
+    {
+      "code": "3",
+      "name": "MDA3 (IVM)",
+      "translations": [],
+      "optionSet": {
+        "id": "fqyj0mlhMHr"
+      },
+      "sortOrder": 1,
+      "id": "ZRzVIstFg9w"
+    },
+    {
+      "code": "6",
+      "name": "T3 (ALB/MBD)",
+      "translations": [],
+      "optionSet": {
+        "id": "fqyj0mlhMHr"
+      },
+      "sortOrder": 4,
+      "id": "YOwbQdb6pBS"
+    },
+    {
+      "code": "2",
+      "name": "2 - moderate prevalence (20%-49%), 1 round annually",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 4,
+      "id": "Zc81Wux2eq9"
+    },
+    {
+      "code": "11",
+      "name": "11 - prevalence 2%-9%, 1 round every 2 years",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 7,
+      "id": "nS6lBNcGudt"
+    },
+    {
+      "code": "5",
+      "name": "5 - endemic, prevalence unknown",
+      "translations": [],
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "sortOrder": 2,
+      "id": "BNSTBlJCZOf"
+    },
+    {
+      "code": "3",
+      "name": "3 - high prevalence (50% and above), 1 round annually and hot spots with additional round",
+      "translations": [],
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "sortOrder": 5,
+      "id": "VYvFYwKR6hP"
+    },
+    {
+      "code": "3",
+      "name": "Round 3",
+      "translations": [],
+      "optionSet": {
+        "id": "p2NtyDtI5Jr"
+      },
+      "sortOrder": 2,
+      "id": "XX1SG2rtrld"
+    },
+    {
+      "code": "1",
+      "name": "Completed FGC",
+      "translations": [],
+      "optionSet": {
+        "id": "XRFjJftdyaY"
+      },
+      "sortOrder": 0,
+      "id": "b5Ku0tb3BeZ"
+    },
+    {
+      "code": "0",
+      "name": "Not Completed FGC",
+      "translations": [],
+      "optionSet": {
+        "id": "XRFjJftdyaY"
+      },
+      "sortOrder": 1,
+      "id": "OBEqg26JeJY"
+    },
+    {
+      "code": "-1",
+      "name": "Not done",
+      "translations": [],
+      "optionSet": {
+        "id": "XRFjJftdyaY"
+      },
+      "sortOrder": 2,
+      "id": "QhalS8WaRpN"
+    },
+    {
+      "code": "2",
+      "name": "MBD",
+      "translations": [],
+      "optionSet": {
+        "id": "INkaSqEovkl"
+      },
+      "sortOrder": 1,
+      "id": "WV3aWnkD9ir"
+    },
+    {
+      "code": "1",
+      "name": "ALB",
+      "translations": [],
+      "optionSet": {
+        "id": "INkaSqEovkl"
+      },
+      "sortOrder": 0,
+      "id": "J62g2gorYpQ"
+    }
+  ],
+  "indicatorTypes": [
+    {
+      "name": "Numeric",
+      "translations": [],
+      "factor": 1,
+      "number": false,
+      "id": "MxGHzKaiBSP"
+    }
+  ]
+}

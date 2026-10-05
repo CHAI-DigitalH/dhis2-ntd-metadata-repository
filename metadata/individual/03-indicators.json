@@ -1,0 +1,2473 @@
+{
+  "indicators": [
+    {
+      "name": "Total 6 Months to < 7 Years Male population",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o masculina 6 meses a < 7 anos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population masculine 6 mois \u00e0 < 7 ans"
+        }
+      ],
+      "shortName": "Total 6 Months to < 7 Years Male population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{qjmrNCrqTMJ}/100)) * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor 6 Months to < 7 Years %) * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "hA7Oya5rug4"
+    },
+    {
+      "name": "Total 7 to < 15 Years Male population",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o masculina 7 a < 15 anos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population masculine 7 \u00e0 < 15 ans"
+        }
+      ],
+      "shortName": "Total 7 to < 15 Years Male population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{nsrYWqo9iwh}/100)) * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor 7 to < 15 Years %) * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "A4Hig8i7L3v"
+    },
+    {
+      "name": "Total Pre-SAC Male population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population pr\u00e9scolaire masculine totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o pr\u00e9-escolar masculina total"
+        }
+      ],
+      "shortName": "Total Pre-SAC Male population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{kucaHZQclFu}/100)) * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor Pre-SAC %) * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "omTEgtLmIY3"
+    },
+    {
+      "name": "NTD - Overall Coverage Rate (%)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux couverture global MTN %"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa cobertura geral DTN %"
+        }
+      ],
+      "shortName": "NTD Overall Coverage",
+      "description": "Total treated / Total targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*(#{MDo91FRtJur}+#{aHmt1Gjbubg}+#{BdVa6Im13iq}+#{GkqUNJFflvt})",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{oZ9K6CP5IlC}+#{Pp3bKCyc0vx}+#{kjsYIjg2Qvc}+#{t8WCZwxXfaO}",
+      "denominatorDescription": "Denominator",
+      "id": "JDickiHSkPd"
+    },
+    {
+      "name": "Total 6 Months to < 7 Years Female population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population f\u00e9minine 6 mois \u00e0 < 7 ans"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o feminina 6 meses a < 7 anos"
+        }
+      ],
+      "shortName": "Total 6 Months to < 7 Years Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{qjmrNCrqTMJ}/100)) * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor 6 Months to < 7 Years %) * Conversion Factor Female %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "k4P7GgAxMEi"
+    },
+    {
+      "name": "Total Male population",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o masculina total"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population masculine totale"
+        }
+      ],
+      "shortName": "Total Male population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "kHAir4v1n8o"
+    },
+    {
+      "name": "Total Pre-SAC population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population pr\u00e9scolaire totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o pr\u00e9-escolar total"
+        }
+      ],
+      "shortName": "Total Pre-SAC population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{kucaHZQclFu}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor Pre-SAC %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "B1PJWpzCXQP"
+    },
+    {
+      "name": "Total >= 15 Years Female population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population f\u00e9minine >= 15 ans"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o feminina >= 15 anos"
+        }
+      ],
+      "shortName": "Total >= 15 Years Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{PThZvv029H0}/100)) * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor >= 15 Years %) * Conversion Factor Female %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "wrDZsXft2c1"
+    },
+    {
+      "name": "Total >= 15 Years population",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o total >= 15 anos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population totale >= 15 ans"
+        }
+      ],
+      "shortName": "Total >= 15 Years population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{PThZvv029H0}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor >= 15 Years %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "DpY5b4mOftf"
+    },
+    {
+      "name": "Total 7 to < 15 Years population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population totale 7 \u00e0 < 15 ans"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o total 7 a < 15 anos"
+        }
+      ],
+      "shortName": "Total 7 to < 15 Years population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{nsrYWqo9iwh}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor 7 to < 15 Years %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "z9tUbDkE982"
+    },
+    {
+      "name": "Total SAC Female population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population EAS f\u00e9minine totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o CIE feminina total"
+        }
+      ],
+      "shortName": "Total SAC Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{hGKaJ5Zs5qT}/100)) * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor SAC %) * Conversion Factor Female %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "ezJhXPzc3Zj"
+    },
+    {
+      "name": "Total 7 to < 15 Years Female population",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o feminina 7 a < 15 anos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population f\u00e9minine 7 \u00e0 < 15 ans"
+        }
+      ],
+      "shortName": "Total 7 to < 15 Years Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{nsrYWqo9iwh}/100)) * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor 7 to < 15 Years %) * Conversion Factor Female %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "pCB9SX5ksOX"
+    },
+    {
+      "name": "Total 6 Months to < 7 Years population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population totale 6 mois \u00e0 < 7 ans"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o total 6 meses a < 7 anos"
+        }
+      ],
+      "shortName": "Total 6 Months to < 7 Years population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{qjmrNCrqTMJ}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor 6 Months to < 7 Years %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "qSVIFL6sp65"
+    },
+    {
+      "name": "Total Female population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population f\u00e9minine totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o feminina total"
+        }
+      ],
+      "shortName": "Total Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "Total Population * (Conversion Factor Female %/100)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "K7LIHSyR8ti"
+    },
+    {
+      "name": "Total WRA population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population FAP totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o MIF total"
+        }
+      ],
+      "shortName": "Total WRA population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{RNwspNNoQVq}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor WRA %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "TtrUeah5O8w"
+    },
+    {
+      "name": "Total adult population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population adulte totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o adulta total"
+        }
+      ],
+      "shortName": "Total Adult population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{enyrbuqEHkk}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor Adult %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "ROOfz2oU5JA"
+    },
+    {
+      "name": "Total Pre-SAC Female population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population pr\u00e9scolaire f\u00e9minine totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o pr\u00e9-escolar feminina total"
+        }
+      ],
+      "shortName": "Total Pre-SAC Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{kucaHZQclFu}/100)) * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor Pre-SAC %) * Conversion Factor Female %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "nzYqhl4lTK5"
+    },
+    {
+      "name": "Total SAC population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population EAS totale"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o CIE total"
+        }
+      ],
+      "shortName": "Total SAC population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{hGKaJ5Zs5qT}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor SAC %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "acxg5gnBb5F"
+    },
+    {
+      "name": "Total SAC Male population",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o CIE masculina total"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population EAS masculine totale"
+        }
+      ],
+      "shortName": "Total SAC Male population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{hGKaJ5Zs5qT}/100)) * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor SAC %) * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "UzGCPMoa3FA"
+    },
+    {
+      "name": "Total >= 15 Years Male population",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o masculina >= 15 anos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population masculine >= 15 ans"
+        }
+      ],
+      "shortName": "Total >= 15 Years Male population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{PThZvv029H0}/100)) * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor >= 15 Years %) * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "oG6mEt2rfja"
+    },
+    {
+      "name": "Total < 6 Months Female population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population f\u00e9minine < 6 mois"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o feminina < 6 meses"
+        }
+      ],
+      "shortName": "Total < 6 Months Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{XgDJmazmqZe}/100)) * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor < 6 Months %) * Conversion Factor Female %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Ty0nJEJGHl2"
+    },
+    {
+      "name": "Total < 6 Months Male population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population masculine < 6 mois"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o masculina < 6 meses"
+        }
+      ],
+      "shortName": "Total < 6 Months Male population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{XgDJmazmqZe}/100)) * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor < 6 Months %) * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "UGnVBvtDmhp"
+    },
+    {
+      "name": "Total adult Male population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population adulte masculine"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o adulta masculina"
+        }
+      ],
+      "shortName": "Total Adult Adult population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{enyrbuqEHkk}/100)) * (#{hDWc2gaBIb5}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor Adult %) * Conversion Factor Male %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "pGtmbDeymXy"
+    },
+    {
+      "name": "Total < 6 Months population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population totale < 6 mois"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o total < 6 meses"
+        }
+      ],
+      "shortName": "Total < 6 Months population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{glWpIavml1c} * (#{XgDJmazmqZe}/100)",
+      "numeratorDescription": "Total Population * Conversion Factor < 6 Months %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "SPCCed8EKyv"
+    },
+    {
+      "name": "JRSM - Total Adult (PZQ)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total adultes (PZQ)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total adultos (PZQ)"
+        }
+      ],
+      "shortName": "JRSM - Total Adult (PZQ)",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{X6o81cnhhWX.gd2hXMUIHR2}+#{X6o81cnhhWX.cKke8FSePIX}",
+      "numeratorDescription": "Population requiring PC - SCH Adult, Male+Population requiring PC - SCH Adult, Female",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "V8TDS74ta9v"
+    },
+    {
+      "name": "JRSM- Total targeted population for SCH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Popula\u00e7\u00e3o total alvo para EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Population totale cibl\u00e9e pour la SBH"
+        }
+      ],
+      "shortName": "JRSM- Total targeted population for SCH",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{HP8ZD93TtpV}+#{eiS2dGGfphP})",
+      "numeratorDescription": "(JRSM - Targeted SAC at lower level for SCH+JRSM - Targeted Adult at lower level for SCH)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "BcwySbTJ1La"
+    },
+    {
+      "name": "JRSM- Total PZQ to be procured",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ \u00e0 acheter"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ a adquirir"
+        }
+      ],
+      "shortName": "JRSM- Total PZQ to be procured",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{HP8ZD93TtpV} * 2.5) + (#{eiS2dGGfphP}*2.5)) - #{QQhjsLUuU5m.NM5Pl6pTGNA}",
+      "numeratorDescription": "((JRSM - Targeted SAC at lower level for SCH * 2.5) + (JRSM - Targeted Adult at lower level for SCH*2.5)) - (H) Actual number of tablets remain after MDA PZQ drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "AXOHprluvx7"
+    },
+    {
+      "name": "JRSM- Total targeted population for LF",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Population totale cibl\u00e9e pour la FL"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Popula\u00e7\u00e3o total alvo para FL"
+        }
+      ],
+      "shortName": "JRSM- Total targeted population for LF",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{oZ9K6CP5IlC.J28WZsF6S30}+#{oZ9K6CP5IlC.dM307212w1X}+#{oZ9K6CP5IlC.gd2hXMUIHR2}+#{oZ9K6CP5IlC.cKke8FSePIX})",
+      "numeratorDescription": "(Population targeted for LF treatment SAC, Male+Population targeted for LF treatment SAC, Female+Population targeted for LF treatment Adult, Male+Population targeted for LF treatment Adult, Female)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "qEZ9NOrfnVA"
+    },
+    {
+      "name": "JRSM- Total PZQ required for Adults",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ necess\u00e1rio para adultos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ requis pour adultes"
+        }
+      ],
+      "shortName": "JRSM- Total PZQ required for Adults",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{eiS2dGGfphP}*2.5)",
+      "numeratorDescription": "(JRSM - Targeted Adult at lower level for SCH*2.8)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "r1NMyeohLZ2"
+    },
+    {
+      "name": "JRSM- Albendazole (ALB) tablets remaining in stock for STH",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s ALB restants en stock pour STH"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos ALB restantes em stock para HTS"
+        }
+      ],
+      "shortName": "JRSM- ALB tablets remaining in stock for STH",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{QQhjsLUuU5m.MeT8Ri0Un7p}+0)",
+      "numeratorDescription": "(H) Actual number of tablets remain after MDA ALB drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "nQSgK1NL9so"
+    },
+    {
+      "name": "JRSM - Total SAC (PZQ)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total CIE (PZQ)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total EAS (PZQ)"
+        }
+      ],
+      "shortName": "JRSM - Total SAC (PZQ)",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{X6o81cnhhWX.J28WZsF6S30}+#{X6o81cnhhWX.dM307212w1X})",
+      "numeratorDescription": "(Population requiring PC - SCH SAC, Male+Population requiring PC - SCH SAC, Female)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "VwbMwOQGP10"
+    },
+    {
+      "name": "JRSM- Total PZQ remaining in stock",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ restant en stock"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ restante em stock"
+        }
+      ],
+      "shortName": "JRSM- Total PZQ remaining in stock",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{QQhjsLUuU5m.NM5Pl6pTGNA})",
+      "numeratorDescription": "((H) Actual number of tablets remain after MDA PZQ drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "YofOv9kiwpB"
+    },
+    {
+      "name": "JRSM- People covered by PELF with ALB",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Personnes couvertes par le PELF avec ALB"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Pessoas cobertas pelo PELF com ALB"
+        }
+      ],
+      "shortName": "JRSM- People covered by PELF with ALB",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(\n(#{glWpIavml1c} * (#{hGKaJ5Zs5qT}/100)) * (#{hDWc2gaBIb5}/100)\n+\n(#{glWpIavml1c} * (#{hGKaJ5Zs5qT}/100)) * (#{VrBZInFzgDq}/100)\n\n\n)\n+\n(\n\n\n(#{glWpIavml1c} * (#{PThZvv029H0}/100)) * (#{hDWc2gaBIb5}/100)\n+\n(#{glWpIavml1c} * (#{PThZvv029H0}/100)) * (#{VrBZInFzgDq}/100)\n\n)",
+      "numeratorDescription": "(Population targeted for LF treatment SAC, Male+Population targeted for LF treatment SAC, Female+Population targeted for LF treatment Adult, Male+Population targeted for LF treatment Adult, Female)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "V2j4Y3jQCEP"
+    },
+    {
+      "name": "JRSM- Albendazole (ALB) tablets remaining in stock for LF",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s ALB restants en stock pour FL"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos ALB restantes em stock para FL"
+        }
+      ],
+      "shortName": "JRSM- ALB tablets remaining in stock for LF",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{QQhjsLUuU5m.MeT8Ri0Un7p}+0)",
+      "numeratorDescription": "(H) Actual number of tablets remain after MDA ALB drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "CjEJc0KKVq5"
+    },
+    {
+      "name": "Total adult Female population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population adulte f\u00e9minine"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o adulta feminina"
+        }
+      ],
+      "shortName": "Total Adult Female population",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{glWpIavml1c} * (#{enyrbuqEHkk}/100)) * (#{VrBZInFzgDq}/100)",
+      "numeratorDescription": "(Total Population * Conversion Factor Adult %) * Conversion Factor Female %",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "tbvFvSG6NaN"
+    },
+    {
+      "name": "JRSM- JRSM- Total targeted population for Oncho",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Popula\u00e7\u00e3o total alvo para Onco"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Population totale cibl\u00e9e pour l'Oncho"
+        }
+      ],
+      "shortName": "JRSM- JRSM- Total targeted population for Oncho",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{Pp3bKCyc0vx.J28WZsF6S30}+#{Pp3bKCyc0vx.gd2hXMUIHR2}+#{Pp3bKCyc0vx.cKke8FSePIX}",
+      "numeratorDescription": "Population targeted for oncho treatment SAC, Male+Population targeted for oncho treatment Adult, Male+Population targeted for oncho treatment Adult, Female",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "hMCyMguuljO"
+    },
+    {
+      "name": "JRSM- Total IVM bottles of 500 tablets",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total frascos IVM de 500 comprimidos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total flacons IVM de 500 comprim\u00e9s"
+        }
+      ],
+      "shortName": "JRSM- Total IVM bottles of 500 tablets",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(((#{nHNk1fZ0gtv}+#{E7j2UonXSt8}+#{QLncSrRmIs6}) * 2.8) - #{QQhjsLUuU5m.CsMFxkhnYcq})",
+      "numeratorDescription": "((JRSM - LF only+JRSM - Oncho only+JRSM - LF+Oncho) * 2.8) - (H) Actual number of tablets remain after MDA IVM drug",
+      "denominator": "500",
+      "denominatorDescription": "500",
+      "id": "IOfxtvZjO7c"
+    },
+    {
+      "name": "JRSM- Total IVM remaining in stock",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total IVM restante em stock"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total IVM restant en stock"
+        }
+      ],
+      "shortName": "JRSM- Total IVM remaining in stock",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{QQhjsLUuU5m.CsMFxkhnYcq}",
+      "numeratorDescription": "(H) Actual number of tablets remain after MDA IVM drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Isqv1INPItQ"
+    },
+    {
+      "name": "JRSM- PZQ Bottles (600 mg) 1000 tablets to be procured",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frascos PZQ (600 mg) 1000 comprimidos a adquirir"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacons PZQ (600 mg) 1000 comprim\u00e9s \u00e0 acheter"
+        }
+      ],
+      "shortName": "JRSM- PZQ Bottles (600 mg) 1000 tablets",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{HP8ZD93TtpV}* 2.5) + (#{eiS2dGGfphP}*2.5)) - #{QQhjsLUuU5m.NM5Pl6pTGNA}\n\n",
+      "numeratorDescription": "((JRSM - SAC (PZQ) * 2.5) + (JRSM - Adults (PZQ)*3)) - (H) Actual number of tablets remain after MDA PZQ drug",
+      "denominator": "1000",
+      "denominatorDescription": "1000",
+      "id": "tkyE9LJKYam"
+    },
+    {
+      "name": "JRSM- Mebendazole (MBD) tablets to be procured for SAC (STH)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos MBD a adquirir para CIE (HTS)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s MBD \u00e0 acheter pour EAS (STH)"
+        }
+      ],
+      "shortName": "JRSM- MBD tablets to be procured for SAC (STH)",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{t8WCZwxXfaO.J28WZsF6S30}+#{t8WCZwxXfaO.dM307212w1X}) - #{QQhjsLUuU5m.yCHFT92tBeM})",
+      "numeratorDescription": "((Population targeted for STH treatment SAC, Male+Population targeted for STH treatment SAC, Female) - (H) Actual number of tablets remain after MDA MBD drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "iPiu3Ytzmo1"
+    },
+    {
+      "name": "JRSM- Total IVM required",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total IVM necess\u00e1rio"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total IVM requis"
+        }
+      ],
+      "shortName": "JRSM- Total IVM required",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{nHNk1fZ0gtv}+#{E7j2UonXSt8}+#{QLncSrRmIs6}))",
+      "numeratorDescription": "((JRSM - LF only+JRSM - Oncho only+JRSM - LF+Oncho) * 2.8)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Ic8ibj4P76x"
+    },
+    {
+      "name": "JRSM- ALB Bottle (400 mg) 200 tablets (STH)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacon ALB (400 mg) 200 comprim\u00e9s (STH)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frasco ALB (400 mg) 200 comprimidos (HTS)"
+        }
+      ],
+      "shortName": "JRSM- ALB Bottle (400 mg) 200 tablets (STH)",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{t8WCZwxXfaO.J28WZsF6S30}+#{t8WCZwxXfaO.dM307212w1X}) - #{QQhjsLUuU5m.MeT8Ri0Un7p})",
+      "numeratorDescription": "((Population targeted for STH treatment SAC, Male+Population targeted for STH treatment SAC, Female) - (H) Actual number of tablets remain after MDA ALB drug)",
+      "denominator": "200",
+      "denominatorDescription": "1",
+      "id": "cD3lcnv4TWt"
+    },
+    {
+      "name": "JRSM- ALB tablets to be procured (LF)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos ALB a adquirir (FL)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s ALB \u00e0 acheter (FL)"
+        }
+      ],
+      "shortName": "JRSM- ALB tablets to be procured (LF)",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{oZ9K6CP5IlC.J28WZsF6S30}+#{oZ9K6CP5IlC.dM307212w1X}+#{oZ9K6CP5IlC.gd2hXMUIHR2}+#{oZ9K6CP5IlC.cKke8FSePIX}) - #{QQhjsLUuU5m.MeT8Ri0Un7p})",
+      "numeratorDescription": "(Population targeted for LF treatment SAC, Male+Population targeted for LF treatment SAC, Female+Population targeted for LF treatment Adult, Male+Population targeted for LF treatment Adult, Female)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Fl02ou4b5TY"
+    },
+    {
+      "name": "JRSM- Mebendazole (MBD) Bottles (500 mg) 150 tablets",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frascos Mebendazol (MBD) (500 mg) 150 comprimidos"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacons M\u00e9bendazole (MBD) (500 mg) 150 comprim\u00e9s"
+        }
+      ],
+      "shortName": "JRSM- MBD Bottles (500 mg) 150 tablets",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{t8WCZwxXfaO.J28WZsF6S30}+#{t8WCZwxXfaO.dM307212w1X}) - #{QQhjsLUuU5m.yCHFT92tBeM})",
+      "numeratorDescription": "((Population targeted for STH treatment SAC, Male+Population targeted for STH treatment SAC, Female) - (H) Actual number of tablets remain after MDA MBD drug)",
+      "denominator": "150",
+      "denominatorDescription": "1",
+      "id": "bvT9UxFOMPY"
+    },
+    {
+      "name": "JRSM- Total IVM to be procured",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total IVM \u00e0 acheter"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total IVM a adquirir"
+        }
+      ],
+      "shortName": "JRSM- Total IVM to be procured",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{nHNk1fZ0gtv}+#{E7j2UonXSt8}+#{QLncSrRmIs6})) - #{QQhjsLUuU5m.CsMFxkhnYcq}",
+      "numeratorDescription": "((JRSM - LF only+JRSM - Oncho only+JRSM - LF+Oncho) * 2.8) - (H) Actual number of tablets remain after MDA IVM drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "uDlXQeIp8ne"
+    },
+    {
+      "name": "JRSM- Total PZQ required for SAC",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ necess\u00e1rio para CIE"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Total PZQ requis pour EAS"
+        }
+      ],
+      "shortName": "JRSM- Total PZQ required for SAC",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": " 2.5 * #{HP8ZD93TtpV}",
+      "numeratorDescription": "2.5 * (JRSM - Targeted Adult at lower level for SCH+JRSM - Targeted SAC at lower level for SCH)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "a0OTWpcpoAq"
+    },
+    {
+      "name": "JRSM- Mebendazole (MBD) tablets remaining in stock",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos MBD restantes em stock"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s MBD restants en stock"
+        }
+      ],
+      "shortName": "JRSM- Mebendazole (MBD) tablets remaining in stock",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{QQhjsLUuU5m.yCHFT92tBeM})",
+      "numeratorDescription": "((H) Actual number of tablets remain after MDA MBD drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "SyY6xqSr2f8"
+    },
+    {
+      "name": "JRSM- ALB Bottle (400 mg) 200 tablets (LF)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacon ALB (400 mg) 200 comprim\u00e9s (FL)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frasco ALB (400 mg) 200 comprimidos (FL)"
+        }
+      ],
+      "shortName": "JRSM- ALB Bottle (400 mg) 200 tablets (LF)",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{oZ9K6CP5IlC.J28WZsF6S30}+#{oZ9K6CP5IlC.dM307212w1X}+#{oZ9K6CP5IlC.gd2hXMUIHR2}+#{oZ9K6CP5IlC.cKke8FSePIX}) - #{QQhjsLUuU5m.MeT8Ri0Un7p})",
+      "numeratorDescription": "(Population targeted for LF treatment SAC, Male+Population targeted for LF treatment SAC, Female+Population targeted for LF treatment Adult, Male+Population targeted for LF treatment Adult, Female)",
+      "denominator": "200",
+      "denominatorDescription": "200",
+      "id": "JCXCw9xnLPU"
+    },
+    {
+      "name": "JRSM- ALB tablets to be procured SAC (STH)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos ALB a adquirir CIE (HTS)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s ALB \u00e0 acheter EAS (STH)"
+        }
+      ],
+      "shortName": "JRSM- ALB tablets to be procured SAC (STH)",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{t8WCZwxXfaO.J28WZsF6S30}+#{t8WCZwxXfaO.dM307212w1X}) - #{QQhjsLUuU5m.MeT8Ri0Un7p})",
+      "numeratorDescription": "((Population targeted for STH treatment SAC, Male+Population targeted for STH treatment SAC, Female) - (H) Actual number of tablets remain after MDA ALB drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "EyKCb1XkU8K"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - IVM",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - IVM"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - IVM"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - IVM",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.CsMFxkhnYcq}+#{fLPMRui5pm3.CsMFxkhnYcq}+#{FWCGLICtBRt.CsMFxkhnYcq}",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA IVM drug+(B) Number of tablets received IVM drug+Number drugs transferred-IN IVM drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "JvQ1J8c9b1w"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - ALB",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - ALB"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - ALB"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - ALB",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.MeT8Ri0Un7p}+#{fLPMRui5pm3.MeT8Ri0Un7p}+#{FWCGLICtBRt.MeT8Ri0Un7p}",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA ALB drug+(B) Number of tablets received ALB drug+Number drugs transferred-IN ALB drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "AkPfxe2hGLZ"
+    },
+    {
+      "name": "(G) Theoretical Balance-IVM",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - IVM"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - IVM"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance-IVM",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.CsMFxkhnYcq}+#{fLPMRui5pm3.CsMFxkhnYcq}+#{FWCGLICtBRt.CsMFxkhnYcq}) - \n\n(#{YXm7wIX4rys.CsMFxkhnYcq}+#{Ac56kaari9s.CsMFxkhnYcq}+#{f1U4RH51PFz.CsMFxkhnYcq}+#{k2OmpZNCiaE.CsMFxkhnYcq}+#{copGp3RKkZa.CsMFxkhnYcq})\n\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA ALB drug+(B) Number of tablets received ALB drug+Number drugs transferred-IN ALB drug) - ((E) Quantity provided to clients IVM drug+Number drugs transferred-OUT IVM drug+Number drugs wasted IVM drug+Number drugs lost IVM drug+Number drugs expired IVM drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Q41nl39ScxN"
+    },
+    {
+      "name": "(G) Theoretical Balance-ALB",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - ALB"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - ALB"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance-ALB",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.MeT8Ri0Un7p}+#{fLPMRui5pm3.MeT8Ri0Un7p}+#{FWCGLICtBRt.MeT8Ri0Un7p}) - \n\n(#{YXm7wIX4rys.MeT8Ri0Un7p}+#{Ac56kaari9s.MeT8Ri0Un7p}+#{f1U4RH51PFz.MeT8Ri0Un7p}+#{k2OmpZNCiaE.MeT8Ri0Un7p}+#{copGp3RKkZa.MeT8Ri0Un7p})\n\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA ALB drug+(B) Number of tablets received ALB drug+Number drugs transferred-IN ALB drug) - ((E) Quantity provided to clients ALB drug+Number drugs transferred-OUT ALB drug+Number drugs wasted ALB drug+Number drugs lost ALB drug+Number drugs expired ALB drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "AWN8s4VrFBK"
+    },
+    {
+      "name": "(I) Gap- ALB",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - ALB"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - ALB"
+        }
+      ],
+      "shortName": "(I) Gap- ALB",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.MeT8Ri0Un7p}+#{fLPMRui5pm3.MeT8Ri0Un7p}+#{FWCGLICtBRt.MeT8Ri0Un7p}) - \n\n(#{YXm7wIX4rys.MeT8Ri0Un7p}+#{Ac56kaari9s.MeT8Ri0Un7p}+#{f1U4RH51PFz.MeT8Ri0Un7p}+#{k2OmpZNCiaE.MeT8Ri0Un7p}+#{copGp3RKkZa.MeT8Ri0Un7p})) - \n#{QQhjsLUuU5m.MeT8Ri0Un7p}\n\n",
+      "numeratorDescription": "(((A) Number of tablets remain from previous MDA ALB drug+(B) Number of tablets received ALB drug+Number drugs transferred-IN ALB drug) - ((E) Quantity provided to clients ALB drug+Number drugs transferred-OUT ALB drug+Number drugs wasted ALB drug+Number drugs lost ALB drug+Number drugs expired ALB drug)) - (H) Actual number of tablets remain after MDA ALB drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "qRRvXzxYcIi"
+    },
+    {
+      "name": "(I) Gap- IVM",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - IVM"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - IVM"
+        }
+      ],
+      "shortName": "(I) Gap- IVM",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.CsMFxkhnYcq}+#{fLPMRui5pm3.CsMFxkhnYcq}+#{FWCGLICtBRt.CsMFxkhnYcq}) - \n\n(#{YXm7wIX4rys.CsMFxkhnYcq}+#{Ac56kaari9s.CsMFxkhnYcq}+#{f1U4RH51PFz.CsMFxkhnYcq}+#{k2OmpZNCiaE.CsMFxkhnYcq}+#{copGp3RKkZa.CsMFxkhnYcq})) - \n#{QQhjsLUuU5m.CsMFxkhnYcq}\n",
+      "numeratorDescription": "(((A) Number of tablets remain from previous MDA IVM drug+(B) Number of tablets received IVM drug+Number drugs transferred-IN IVM drug) - ((E) Quantity provided to clients IVM drug+Number drugs transferred-OUT IVM drug+Number drugs wasted IVM drug+Number drugs lost IVM drug+Number drugs expired IVM drug)) - (H) Actual number of tablets remain after MDA IVM drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "h94mLgDa7y2"
+    },
+    {
+      "name": "LF - Refusal Rate (%)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux refus FL %"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa recusa FL %"
+        }
+      ],
+      "shortName": "LF Refusal Rate",
+      "description": "Not treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{ab2nHg8F3l2}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{oZ9K6CP5IlC}",
+      "denominatorDescription": "Denominator",
+      "id": "YaOECfS0F2p"
+    },
+    {
+      "name": "LF - Coverage Gap (%)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Lacuna cobertura FL %"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "\u00c9cart couverture FL %"
+        }
+      ],
+      "shortName": "LF Coverage Gap",
+      "description": "(Targeted - Treated) / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*(#{oZ9K6CP5IlC}-#{MDo91FRtJur})",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{oZ9K6CP5IlC}",
+      "denominatorDescription": "Denominator",
+      "id": "QHCLfJqINDw"
+    },
+    {
+      "name": "LF - Coverage Rate (%)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa cobertura FL %"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux couverture FL %"
+        }
+      ],
+      "shortName": "LF Coverage Rate",
+      "description": "Treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{MDo91FRtJur}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{oZ9K6CP5IlC}",
+      "denominatorDescription": "Denominator",
+      "id": "XBa46KPfVob"
+    },
+    {
+      "name": "Oncho - Coverage Gap (%)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Lacuna cobertura Onco %"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "\u00c9cart couverture Oncho %"
+        }
+      ],
+      "shortName": "Oncho Coverage Gap",
+      "description": "(Targeted - Treated) / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*(#{Pp3bKCyc0vx}-#{aHmt1Gjbubg})",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{Pp3bKCyc0vx}",
+      "denominatorDescription": "Denominator",
+      "id": "rPcqs0WCIVE"
+    },
+    {
+      "name": "Oncho - Coverage Rate (%)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux couverture Oncho %"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa cobertura Onco %"
+        }
+      ],
+      "shortName": "Oncho Coverage Rate",
+      "description": "Treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{aHmt1Gjbubg}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{Pp3bKCyc0vx}",
+      "denominatorDescription": "Denominator",
+      "id": "pOm2P6euSOk"
+    },
+    {
+      "name": "Oncho - Refusal Rate (%)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux refus Oncho %"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa recusa Onco %"
+        }
+      ],
+      "shortName": "Oncho Refusal Rate",
+      "description": "Not treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{nwskIsdrNHZ}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{Pp3bKCyc0vx}",
+      "denominatorDescription": "Denominator",
+      "id": "eKkIi6V7isc"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - PZQ",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - PZQ"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - PZQ"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - PZQ",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.NM5Pl6pTGNA}+#{fLPMRui5pm3.NM5Pl6pTGNA}+#{FWCGLICtBRt.NM5Pl6pTGNA}\n\n\n",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA PZQ drug+(B) Number of tablets received PZQ drug+Number drugs transferred-IN PZQ drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Uko9tPsPVQX"
+    },
+    {
+      "name": "(G) Theoretical Balance-PZQ",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - PZQ"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - PZQ"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance-PZQ",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.NM5Pl6pTGNA}+#{fLPMRui5pm3.NM5Pl6pTGNA}+#{FWCGLICtBRt.NM5Pl6pTGNA}) - \n\n(#{YXm7wIX4rys.NM5Pl6pTGNA}+#{Ac56kaari9s.NM5Pl6pTGNA}+#{f1U4RH51PFz.NM5Pl6pTGNA}+#{k2OmpZNCiaE.NM5Pl6pTGNA}+#{copGp3RKkZa.NM5Pl6pTGNA})\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA ALB drug+(B) Number of tablets received ALB drug+Number drugs transferred-IN ALB drug) - ((E) Quantity provided to clients IVM drug+Number drugs transferred-OUT IVM drug+Number drugs wasted IVM drug+Number drugs lost IVM drug+Number drugs expired IVM drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "EoPLRoos4uZ"
+    },
+    {
+      "name": "(I) Gap- PZQ",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - PZQ"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - PZQ"
+        }
+      ],
+      "shortName": "(I) Gap- PZQ",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.NM5Pl6pTGNA}+#{fLPMRui5pm3.NM5Pl6pTGNA}+#{FWCGLICtBRt.NM5Pl6pTGNA}) - \n\n(#{YXm7wIX4rys.NM5Pl6pTGNA}+#{Ac56kaari9s.NM5Pl6pTGNA}+#{f1U4RH51PFz.NM5Pl6pTGNA}+#{k2OmpZNCiaE.NM5Pl6pTGNA}+#{copGp3RKkZa.NM5Pl6pTGNA})) - \n#{QQhjsLUuU5m.NM5Pl6pTGNA}\n\n",
+      "numeratorDescription": "(((A) Number of tablets remain from previous MDA PZQ drug+(B) Number of tablets received PZQ drug+Number drugs transferred-IN PZQ drug) - ((E) Quantity provided to clients PZQ drug+Number drugs transferred-OUT PZQ drug+Number drugs wasted PZQ drug+Number drugs lost PZQ drug+Number drugs expired PZQ drug)) - (H) Actual number of tablets remain after MDA PZQ drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "RMh6FJJEI9t"
+    },
+    {
+      "name": "SCH - Refusal Rate (%)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa recusa EBI %"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux refus SBH %"
+        }
+      ],
+      "shortName": "SCH Refusal Rate",
+      "description": "Not treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{wcWXbw4U7NS}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{kjsYIjg2Qvc}",
+      "denominatorDescription": "Denominator",
+      "id": "hWzV6g0xYpl"
+    },
+    {
+      "name": "SCH - Coverage Gap (%)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Lacuna cobertura EBI %"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "\u00c9cart couverture SBH %"
+        }
+      ],
+      "shortName": "SCH Coverage Gap",
+      "description": "(Targeted - Treated) / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*(#{kjsYIjg2Qvc}-#{BdVa6Im13iq})",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{kjsYIjg2Qvc}",
+      "denominatorDescription": "Denominator",
+      "id": "gRYj4qj0SXB"
+    },
+    {
+      "name": "SCH - Coverage Rate (%)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa cobertura EBI %"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux couverture SBH %"
+        }
+      ],
+      "shortName": "SCH Coverage Rate",
+      "description": "Treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{BdVa6Im13iq}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{kjsYIjg2Qvc}",
+      "denominatorDescription": "Denominator",
+      "id": "LYDWDY2BWYs"
+    },
+    {
+      "name": "Total NOT treated for STH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Total N\u00c3O tratados para HTS"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Total NON trait\u00e9s pour les STH"
+        }
+      ],
+      "shortName": "Total NOT treated for STH",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{GinJMrf7QaM}+#{Dm0jrtJL8kU}",
+      "numeratorDescription": "Population not treated - STH+Population not treated - STH 50 years +, F",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "T9HsdNGUaOO"
+    },
+    {
+      "name": "Total adverse events referred for STH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Total de eventos adversos referenciados para HTS"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Total des \u00e9v\u00e9nements ind\u00e9sirables r\u00e9f\u00e9r\u00e9s pour les STH"
+        }
+      ],
+      "shortName": "Total adverse events referred for STH",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{LIf2Mi6FUZu}+#{kUXhSUWLtb3}",
+      "numeratorDescription": "STH- Serious adverse events referred+STH- Serious adverse events referred, 50 years +, female",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "FWyDGI1XMEI"
+    },
+    {
+      "name": "Total treated for STH Round 1",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Total trait\u00e9s pour STH Round 1"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Total tratados para HTS Ronda 1"
+        }
+      ],
+      "shortName": "Total treated for STH Round 1",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{GkqUNJFflvt}+#{sFWETtfWZU4}",
+      "numeratorDescription": "Population treated for STH round 1+Population treated for STH round1, 50 years +, female",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Jbj6hbj0qRb"
+    },
+    {
+      "name": "Total adverse events for STH",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Total des \u00e9v\u00e9nements ind\u00e9sirables pour les STH"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Total de eventos adversos para HTS"
+        }
+      ],
+      "shortName": "Total adverse events for STH",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{FwCfmtt6hft}+#{o64EMzC6YDv}",
+      "numeratorDescription": "STH - Serious adverse events+STH - Serious adverse events, 50 years+, female",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "S6qREitnhSU"
+    },
+    {
+      "name": "STH - Coverage Gap (%)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Lacuna cobertura HTS %"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "\u00c9cart couverture STH %"
+        }
+      ],
+      "shortName": "STH Coverage Gap",
+      "description": "(Targeted - Treated) / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*(#{t8WCZwxXfaO}-#{GkqUNJFflvt})",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{t8WCZwxXfaO}",
+      "denominatorDescription": "Denominator",
+      "id": "x5m3A7mdvj4"
+    },
+    {
+      "name": "STH - Coverage Rate (%)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux couverture STH %"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa cobertura HTS %"
+        }
+      ],
+      "shortName": "STH Coverage Rate",
+      "description": "Treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{GkqUNJFflvt}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{t8WCZwxXfaO}",
+      "denominatorDescription": "Denominator",
+      "id": "een3XnZX69s"
+    },
+    {
+      "name": "Total treated for STH Round 2",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Total trait\u00e9s pour STH Round 2"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Total tratados para HTS Ronda 2"
+        }
+      ],
+      "shortName": "Total treated for STH Round 2",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{BJA5CL61r8I}+#{M8B9F3dMAd0}",
+      "numeratorDescription": "Population treated for STH round 2+Population treated for STH round2, 50 years+, female",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "lTdBJ7XllYq"
+    },
+    {
+      "name": "STH - Refusal Rate (%)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Taux refus STH %"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Taxa recusa HTS %"
+        }
+      ],
+      "shortName": "STH Refusal Rate",
+      "description": "Not treated / Targeted \u00d7 100",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 1,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "100*#{GinJMrf7QaM}",
+      "numeratorDescription": "Numerator",
+      "denominator": "#{t8WCZwxXfaO}",
+      "denominatorDescription": "Denominator",
+      "id": "DepeAmyR3FY"
+    },
+    {
+      "name": "(G) Theoretical Balance-MBD",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - MBD"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - MBD"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance-MBD",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.yCHFT92tBeM}+#{fLPMRui5pm3.yCHFT92tBeM}+#{FWCGLICtBRt.yCHFT92tBeM}) - \n\n(#{YXm7wIX4rys.yCHFT92tBeM}+#{Ac56kaari9s.yCHFT92tBeM}+#{f1U4RH51PFz.yCHFT92tBeM}+#{k2OmpZNCiaE.yCHFT92tBeM}+#{copGp3RKkZa.yCHFT92tBeM})\n\n\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA MBD drug+(B) Number of tablets received MBD drug+Number drugs transferred-IN MBD drug) - ((E) Quantity provided to clients MBD drug+Number drugs transferred-OUT MBD drug+Number drugs wasted MBD drug+Number drugs lost MBD drug+Number drugs expired MBD drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "qE2bClCdXCb"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - MBD",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - MBD"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - MBD"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - MBD",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.yCHFT92tBeM}+#{fLPMRui5pm3.yCHFT92tBeM}+#{FWCGLICtBRt.yCHFT92tBeM}\n",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA MBD drug+(B) Number of tablets received MBD drug+Number drugs transferred-IN MBD drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "aMYlW7qrWuq"
+    },
+    {
+      "name": "(I) Gap- MBD",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - MBD"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - MBD"
+        }
+      ],
+      "shortName": "(I) Gap- MBD",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.yCHFT92tBeM}+#{fLPMRui5pm3.yCHFT92tBeM}+#{FWCGLICtBRt.yCHFT92tBeM}) - \n\n(#{YXm7wIX4rys.yCHFT92tBeM}+#{Ac56kaari9s.yCHFT92tBeM}+#{f1U4RH51PFz.yCHFT92tBeM}+#{k2OmpZNCiaE.yCHFT92tBeM}+#{copGp3RKkZa.yCHFT92tBeM})) - \n#{QQhjsLUuU5m.yCHFT92tBeM}",
+      "numeratorDescription": "(((A) Number of tablets remain from previous MDA MBD drug+(B) Number of tablets received MBD drug+Number drugs transferred-IN MBD drug) - ((E) Quantity provided to clients MBD drug+Number drugs transferred-OUT MBD drug+Number drugs wasted MBD drug+Number drugs lost MBD drug+Number drugs expired MBD drug)) - (H) Actual number of tablets remain after MDA MBD drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "TAsHBzpCNOp"
+    },
+    {
+      "name": "(I) Gap- Eye Drops",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - Gotas oculares"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - Collyre"
+        }
+      ],
+      "shortName": "(I) Gap- Eye Drops",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.m4DCdxEXfSn}+#{fLPMRui5pm3.m4DCdxEXfSn}+#{FWCGLICtBRt.m4DCdxEXfSn}) - \n\n(#{YXm7wIX4rys.m4DCdxEXfSn}+#{Ac56kaari9s.m4DCdxEXfSn}+#{f1U4RH51PFz.m4DCdxEXfSn}+#{k2OmpZNCiaE.m4DCdxEXfSn}+#{copGp3RKkZa.m4DCdxEXfSn})) - \n#{QQhjsLUuU5m.m4DCdxEXfSn}\n\n\n",
+      "numeratorDescription": "(((A) Number of tablets remain from previous MDA Az Drops drug+(B) Number of tablets received Az Drops drug+Number drugs transferred-IN Az Drops drug) - ((E) Quantity provided to clients Az Drops drug+Number drugs transferred-OUT Az Drops drug+Number drugs wasted Az Drops drug+Number drugs lost Az Drops drug+Number drugs expired Az Drops drug)) - (H) Actual number of tablets remain after MDA Az Drops drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "u9aGS1Sj94f"
+    },
+    {
+      "name": "(I) Gap- AZ Tablets",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - Comprimidos AZ"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - Comprim\u00e9s AZ"
+        }
+      ],
+      "shortName": "(I) Gap- AZ tablets",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.QAJlEP4JamS}+#{fLPMRui5pm3.QAJlEP4JamS}+#{FWCGLICtBRt.QAJlEP4JamS}) - \n\n(#{YXm7wIX4rys.QAJlEP4JamS}+#{Ac56kaari9s.QAJlEP4JamS}+#{f1U4RH51PFz.QAJlEP4JamS}+#{k2OmpZNCiaE.QAJlEP4JamS}+#{copGp3RKkZa.QAJlEP4JamS})) - \n#{QQhjsLUuU5m.QAJlEP4JamS}\n\n",
+      "numeratorDescription": "(((A) Number of tablets remain from previous MDA Az Tabs drug+(B) Number of tablets received Az Tabs drug+Number drugs transferred-IN Az Tabs drug) - ((E) Quantity provided to clients Az Tabs drug+Number drugs transferred-OUT Az Tabs drug+Number drugs wasted Az Tabs drug+Number drugs lost Az Tabs drug+Number drugs expired Az Tabs drug)) - (H) Actual number of tablets remain after MDA Az Tabs drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "AVyKpjOrhGX"
+    },
+    {
+      "name": "(I) Gap- AZ POS",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - AZ POS"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - AZ POS"
+        }
+      ],
+      "shortName": "(I) Gap- AZ POS",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.D7ww4shn1cx}+#{fLPMRui5pm3.D7ww4shn1cx}+#{FWCGLICtBRt.D7ww4shn1cx}) - \n\n(#{YXm7wIX4rys.D7ww4shn1cx}+#{Ac56kaari9s.D7ww4shn1cx}+#{f1U4RH51PFz.D7ww4shn1cx}+#{k2OmpZNCiaE.D7ww4shn1cx}+#{copGp3RKkZa.D7ww4shn1cx})) - \n#{QQhjsLUuU5m.D7ww4shn1cx}",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA Az Oral drug+(B) Number of tablets received Az Oral drug+Number drugs transferred-IN Az Oral drug) - ((E) Quantity provided to clients Az Oral drug+Number drugs transferred-OUT Az Oral drug+Number drugs wasted Az Oral drug+Number drugs lost Az Oral drug+Number drugs expired Az Oral drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "GqymgdKIzOO"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - TEO",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - TEO"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - TEO"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - TEO",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.JXtGR2xIZZO}+#{fLPMRui5pm3.JXtGR2xIZZO}+#{FWCGLICtBRt.JXtGR2xIZZO}",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA TEO drug+(B) Number of tablets received TEO drug+Number drugs transferred-IN TEO drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "NlYCdJqcjiD"
+    },
+    {
+      "name": "(G) Theoretical Balance- AZ Tablets",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - Comprim\u00e9s AZ"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - Comprimidos AZ"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance- AZ Tablets",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.QAJlEP4JamS}+#{fLPMRui5pm3.QAJlEP4JamS}+#{FWCGLICtBRt.QAJlEP4JamS}) - \n\n(#{YXm7wIX4rys.QAJlEP4JamS}+#{Ac56kaari9s.QAJlEP4JamS}+#{f1U4RH51PFz.QAJlEP4JamS}+#{k2OmpZNCiaE.QAJlEP4JamS}+#{copGp3RKkZa.QAJlEP4JamS})\n\n\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA Az Tabs drug+(B) Number of tablets received Az Tabs drug+Number drugs transferred-IN Az Tabs drug) - ((E) Quantity provided to clients Az Tabs drug+Number drugs transferred-OUT Az Tabs drug+Number drugs wasted Az Tabs drug+Number drugs lost Az Tabs drug+Number drugs expired Az Tabs drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "vULaluw2blH"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - AZ Tablets",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - Comprim\u00e9s AZ"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - Comprimidos AZ"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - AZ Tab",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.QAJlEP4JamS}+#{fLPMRui5pm3.QAJlEP4JamS}+#{FWCGLICtBRt.QAJlEP4JamS}",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA ALB drug+(B) Number of tablets received ALB drug+Number drugs transferred-IN ALB drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "udjKo3hdLwa"
+    },
+    {
+      "name": "(G) Theoretical Balance- AZ POS",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - AZ POS"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - AZ POS"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance- AZ POS",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.D7ww4shn1cx}+#{fLPMRui5pm3.D7ww4shn1cx}+#{FWCGLICtBRt.D7ww4shn1cx}) - \n\n(#{YXm7wIX4rys.D7ww4shn1cx}+#{Ac56kaari9s.D7ww4shn1cx}+#{f1U4RH51PFz.D7ww4shn1cx}+#{k2OmpZNCiaE.D7ww4shn1cx}+#{copGp3RKkZa.D7ww4shn1cx})\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA Az Oral drug+(B) Number of tablets received Az Oral drug+Number drugs transferred-IN Az Oral drug) - ((E) Quantity provided to clients Az Oral drug+Number drugs transferred-OUT Az Oral drug+Number drugs wasted Az Oral drug+Number drugs lost Az Oral drug+Number drugs expired Az Oral drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "sMjk3pZ0HhY"
+    },
+    {
+      "name": "(G) Theoretical Balance- TEO",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - TEO"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - TEO"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance- TEO",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.JXtGR2xIZZO}+#{fLPMRui5pm3.JXtGR2xIZZO}+#{FWCGLICtBRt.JXtGR2xIZZO}) - \n\n(#{YXm7wIX4rys.JXtGR2xIZZO}+#{Ac56kaari9s.JXtGR2xIZZO}+#{f1U4RH51PFz.JXtGR2xIZZO}+#{k2OmpZNCiaE.JXtGR2xIZZO}+#{copGp3RKkZa.JXtGR2xIZZO})\n\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA TEO drug+(B) Number of tablets received TEO drug+Number drugs transferred-IN TEO drug) - ((E) Quantity provided to clients TEO drug+Number drugs transferred-OUT TEO drug+Number drugs wasted TEO drug+Number drugs lost TEO drug+Number drugs expired TEO drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "bBfQBhSik6L"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - AZ Drop",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - Collyre AZ"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - Gotas AZ"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - AZ Drop",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.m4DCdxEXfSn}+#{fLPMRui5pm3.m4DCdxEXfSn}+#{FWCGLICtBRt.m4DCdxEXfSn}",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA TEO drug+(B) Number of tablets received TEO drug+Number drugs transferred-IN TEO drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "tYctjuhTl4u"
+    },
+    {
+      "name": "(I) Gap- TEO",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(I) Lacuna - TEO"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(I) \u00c9cart - TEO"
+        }
+      ],
+      "shortName": "(I) Gap- TEO",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "((#{fVjC6Nufzaf.JXtGR2xIZZO}+#{fLPMRui5pm3.JXtGR2xIZZO}+#{FWCGLICtBRt.JXtGR2xIZZO}) - \n\n(#{YXm7wIX4rys.JXtGR2xIZZO}+#{Ac56kaari9s.JXtGR2xIZZO}+#{f1U4RH51PFz.JXtGR2xIZZO}+#{k2OmpZNCiaE.JXtGR2xIZZO}+#{copGp3RKkZa.JXtGR2xIZZO})) - \n#{QQhjsLUuU5m.JXtGR2xIZZO}\n",
+      "numeratorDescription": "(((A) Number of tablets remain from previous MDA TEO drug+(B) Number of tablets received TEO drug+Number drugs transferred-IN TEO drug) - ((E) Quantity provided to clients TEO drug+Number drugs transferred-OUT TEO drug+Number drugs wasted TEO drug+Number drugs lost TEO drug+Number drugs expired TEO drug)) - (H) Actual number of tablets remain after MDA TEO drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "RGdx7B8OR2R"
+    },
+    {
+      "name": "(G) Theoretical Balance- Eye Drops",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(G) Saldo te\u00f3rico - Gotas oculares"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(G) Solde th\u00e9orique - Collyre"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance- Eye Drops",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "(#{fVjC6Nufzaf.m4DCdxEXfSn}+#{fLPMRui5pm3.m4DCdxEXfSn}+#{FWCGLICtBRt.m4DCdxEXfSn}) - \n\n(#{YXm7wIX4rys.m4DCdxEXfSn}+#{Ac56kaari9s.m4DCdxEXfSn}+#{f1U4RH51PFz.m4DCdxEXfSn}+#{k2OmpZNCiaE.m4DCdxEXfSn}+#{copGp3RKkZa.m4DCdxEXfSn})\n\n",
+      "numeratorDescription": "((A) Number of tablets remain from previous MDA Az Drops drug+(B) Number of tablets received Az Drops drug+Number drugs transferred-IN Az Drops drug) - ((E) Quantity provided to clients Az Drops drug+Number drugs transferred-OUT Az Drops drug+Number drugs wasted Az Drops drug+Number drugs lost Az Drops drug+Number drugs expired Az Drops drug)",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "bNJ3sFStkbg"
+    },
+    {
+      "name": "(C) Quantity available for current MDA - AZ POS",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para ATM atual - AZ POS"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel - AZ POS"
+        }
+      ],
+      "shortName": "(C) Quantity available for current MDA - AZ POS",
+      "legendSets": [],
+      "annualized": false,
+      "decimals": 0,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{fVjC6Nufzaf.D7ww4shn1cx}+#{fLPMRui5pm3.D7ww4shn1cx}+#{FWCGLICtBRt.D7ww4shn1cx}",
+      "numeratorDescription": "(A) Number of tablets remain from previous MDA Az Oral drug+(B) Number of tablets received Az Oral drug+Number drugs transferred-IN Az Oral drug",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "Z5M1z6QHl6L"
+    },
+    {
+      "name": "TT- Number of Persons Targeted for TT Surgery",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "TT - Nombre de personnes cibl\u00e9es pour la chirurgie TT"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "TT - N\u00famero de pessoas alvo para cirurgia TT"
+        }
+      ],
+      "shortName": "Trachoma Survey Planning",
+      "legendSets": [],
+      "annualized": false,
+      "indicatorType": {
+        "id": "MxGHzKaiBSP"
+      },
+      "numerator": "#{mZv0Gae4aG9.Uz12FkwngBQ}+#{mZv0Gae4aG9.rnuj9z2p6SA}",
+      "numeratorDescription": "Is Impact Survey Planned-Trachoma Survey Conducted",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "qamKvIyU7Y3"
+    }
+  ]
+}

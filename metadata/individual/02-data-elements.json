@@ -1,0 +1,3652 @@
+{
+  "dataElements": [
+    {
+      "name": "Geoconnect ID",
+      "translations": [],
+      "shortName": "Geoconnect ID",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "t6E8GEqDYqM",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Population Targeted for T1-ALB",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour T1-ALB"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para T1-ALB"
+        }
+      ],
+      "shortName": "Population Targeted for T1-ALB",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "KkF5Y1WIvXj",
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      }
+    },
+    {
+      "code": "trch-persons-operated-target-chld",
+      "name": "Number of children target for Child MDA",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de crian\u00e7as alvo para a ATM infantil"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre d'enfants cibl\u00e9s pour le TDM enfants"
+        }
+      ],
+      "shortName": "Number of children target for Child MDA",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "T8Zm4mvw6kR",
+      "categoryCombo": {
+        "id": "RcJlnngGLvs"
+      }
+    },
+    {
+      "code": "trc-pop-treat-prv-surv",
+      "name": "TT cases managed since last survey",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Casos TT geridos desde o \u00faltimo inqu\u00e9rito"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Cas TT pris en charge depuis la derni\u00e8re enqu\u00eate"
+        }
+      ],
+      "shortName": "TT cases managed since last survey",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "QRyVbCkIxuX",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "pcn-int-implemented-r2",
+      "name": "PC implemented - Round 2",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "CP mise en \u0153uvre - Round 2"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "QP implementada - Ronda 2"
+        }
+      ],
+      "shortName": "PC implemented - Round 2",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "fqyj0mlhMHr"
+      },
+      "id": "xFdWM5vKsJF",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Trachoma - Remaining MDA rounds",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Tracoma - Rondas ATM restantes"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Trachome - Rounds TDM restants"
+        }
+      ],
+      "shortName": "Trachoma - Remaining MDA rounds",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "Qdf5nHLGX2k",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "trch-persons-operated-target",
+      "name": "Number of Persons Targeted for TT Management",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de personnes cibl\u00e9es pour la prise en charge du TT"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de pessoas alvo para gest\u00e3o de TT"
+        }
+      ],
+      "shortName": "# of Persons Targeted for TT Management",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "mZv0Gae4aG9",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    },
+    {
+      "code": "pcn-pop-require-pc-tr",
+      "name": "Population requiring PC - trachoma",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o que necessita QP - tracoma"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population n\u00e9cessitant la CP - trachome"
+        }
+      ],
+      "shortName": "# requiring PC - trachoma",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "usBUcS8PZ03",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "name": "Endemicity LF",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "End\u00e9micit\u00e9 FL"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Endemicidade FL"
+        }
+      ],
+      "shortName": "Endemicity LF",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "optionSet": {
+        "id": "ABacRryzWaX"
+      },
+      "id": "iQc8N62EszN",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "pcn-pop-require-pc-sch",
+      "name": "Population requiring PC - SCH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Necessita QP - EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e9cessitant CP - SBH"
+        }
+      ],
+      "shortName": "# requiring PC - SCH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "X6o81cnhhWX",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trgt-sth",
+      "name": "Population targeted for STH and SCH treatment",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Alvo - HTS"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Cibl\u00e9s - STH"
+        }
+      ],
+      "shortName": "# Targeted - STH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "t8WCZwxXfaO",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trgt-rem-round",
+      "name": "Remaining rounds of MDA after the recent survey",
+      "translations": [],
+      "shortName": "Remaining rounds of MDA after the recent survey",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "s4WSUgUIAjr",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "pcn-pop-trgt-tr",
+      "name": "Population targeted for trachoma MDA",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour le TDM trachome"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para ATM tracoma"
+        }
+      ],
+      "shortName": "# Targeted - Trachoma MDA",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "KfK7lTG9ofc",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "name": "Population Targeted for T3/STH Round 2",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour T3/STH Round 2"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para T3/HTS Ronda 2"
+        }
+      ],
+      "shortName": "Population Targeted for T3/STH Round 2",
+      "formName": "Population Targeted for T3/STH Round 2",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "yVuMgov1svT",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-require-pc-ov",
+      "name": "Population requiring PC - oncho",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e9cessitant CP - Oncho"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Necessita QP - Onco"
+        }
+      ],
+      "shortName": "# requiring PC - oncho",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "PQ8giF0T2Ux",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "name": "Endemicity SCH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Endemicidade EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "End\u00e9micit\u00e9 SBH"
+        }
+      ],
+      "shortName": "Endemicity SCH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "optionSet": {
+        "id": "LWDrvmEaUuL"
+      },
+      "id": "HzSxsGkYXKH",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "trc-treatment-strategy",
+      "name": "Trachoma treatment strategy",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Estrat\u00e9gia de tratamento do tracoma"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Strat\u00e9gie de traitement du trachome"
+        }
+      ],
+      "shortName": "Trachoma treatment strategy",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "OkaSIgQnuhP"
+      },
+      "id": "YqqujfPuG95",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Population Targeted for MDA1",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour le TDM1"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para ATM1"
+        }
+      ],
+      "shortName": "Population Targeted for MDA1",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "qoe4QWAq6jR",
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      }
+    },
+    {
+      "code": "trch-tt-backlog",
+      "name": "Total number of TT backlog",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre total de cas TT en attente"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero total de casos TT pendentes"
+        }
+      ],
+      "shortName": "Total number of TT backlog",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "rmuyfJ49XZO",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "name": "Endemicity Oncho",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Endemicidade Onco"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "End\u00e9micit\u00e9 Oncho"
+        }
+      ],
+      "shortName": "Endemicity Oncho",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "optionSet": {
+        "id": "ABacRryzWaX"
+      },
+      "id": "SO6KWmYVD0s",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "pcn-pop-require-pc-sth",
+      "name": "Population requiring PC - STH",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e9cessitant CP - STH"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Necessita QP - HTS"
+        }
+      ],
+      "shortName": "# requiring PC - STH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "q2PnpP4lNs7",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-require-pc-lf",
+      "name": "Population requiring PC - LF",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e9cessitant CP - FL"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Necessita QP - FL"
+        }
+      ],
+      "shortName": "# requiring PC - LF",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "b1UgpNyL1Dw",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trgt-lf",
+      "name": "Population targeted for LF treatment",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Cibl\u00e9s - FL"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Alvo - FL"
+        }
+      ],
+      "shortName": "# Targeted - LF",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "oZ9K6CP5IlC",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "trch-treatment-request-conditionally-approved",
+      "name": "Treatment request conditionally approved",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Demande de traitement approuv\u00e9e sous conditions"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Pedido de tratamento aprovado condicionalmente"
+        }
+      ],
+      "shortName": "Treatment request conditionally approved",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [
+        4
+      ],
+      "zeroIsSignificant": false,
+      "id": "TBmtCwoUyht",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Population Targeted for MDA3",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour le TDM3"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para ATM3"
+        }
+      ],
+      "shortName": "Population Targeted for MDA3",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "rcRWqBM5Oey",
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      }
+    },
+    {
+      "name": "Population Targeted for T3/STH Round 1",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour T3/STH Round 1"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para T3/HTS Ronda 1"
+        }
+      ],
+      "shortName": "Population Targeted for T3/STH Round 1",
+      "formName": "Population Targeted for T3/STH Round 1",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "fiy6WUwGPZp",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "name": "Number of treatment rounds planned for the year",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de rondas de tratamento planeadas para o ano"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de rounds de traitement planifi\u00e9s pour l'ann\u00e9e"
+        }
+      ],
+      "shortName": "Number of treatment rounds planned for the year",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "optionSet": {
+        "id": "p2NtyDtI5Jr"
+      },
+      "id": "jHtmizoPBeA",
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      }
+    },
+    {
+      "code": "trch-treatment-request-approved",
+      "name": "Treatment request approved",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Demande de traitement approuv\u00e9e"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Pedido de tratamento aprovado"
+        }
+      ],
+      "shortName": "Treatment request approved",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [
+        4
+      ],
+      "zeroIsSignificant": false,
+      "id": "dID3tcl6Nyp",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "pcn-int-implemented-r1",
+      "name": "PC implemented - Round 1",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "CP mise en \u0153uvre - Round 1"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "QP implementada - Ronda 1"
+        }
+      ],
+      "shortName": "PC implemented - Round 1",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "fqyj0mlhMHr"
+      },
+      "id": "KB4BsFABqgs",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "TF category",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Categoria TF"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Cat\u00e9gorie TF"
+        }
+      ],
+      "shortName": "TF category",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "EWes7TR0oTX"
+      },
+      "id": "TtHSGWLyKJ5",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "NTD Population",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o"
+        }
+      ],
+      "shortName": "NTD Population",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "HdCsmGr74nI",
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      }
+    },
+    {
+      "code": "pcn-pop-trgt-ov",
+      "name": "Population targeted for oncho treatment",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Cibl\u00e9s - Oncho"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Alvo - Onco"
+        }
+      ],
+      "shortName": "# Targeted - oncho",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "Pp3bKCyc0vx",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "trch-intervention-status",
+      "name": "Intervention Status",
+      "translations": [],
+      "shortName": "Intervention Status",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "USasrIMOghX"
+      },
+      "id": "TDHoNyo9lqF",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Population Targeted for T2",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para T2"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour T2"
+        }
+      ],
+      "shortName": "Population Targeted for T2",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "dmoPqc69Rml",
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      }
+    },
+    {
+      "code": "trc-elem-trg",
+      "name": "TT cases unkown to the health system",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Casos TT desconhecidos do sistema de sa\u00fade"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Cas TT inconnus du syst\u00e8me de sant\u00e9"
+        }
+      ],
+      "shortName": "TT cases unkown to the health system",
+      "formName": "TT cases unkown to the health system",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "CzAaI2i84Yp",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "pcn-pop-trgt-sch",
+      "name": "Population targeted for SCH treatment",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Alvo - EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Cibl\u00e9s - SBH"
+        }
+      ],
+      "shortName": "# Targeted - SCH",
+      "description": "from the integrated summary form",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "kjsYIjg2Qvc",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "trch-treatment-request",
+      "name": "Treatment request",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Demande de traitement"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Pedido de tratamento"
+        }
+      ],
+      "shortName": "Treatment request",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [
+        4
+      ],
+      "zeroIsSignificant": false,
+      "id": "lLZ9PPlGDQ0",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Endemicity STH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Endemicidade HTS"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "End\u00e9micit\u00e9 STH"
+        }
+      ],
+      "shortName": "Endemicity STH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "optionSet": {
+        "id": "W97GRllBQuW"
+      },
+      "id": "h77trEqTOMH",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Population Targeted for T1-PZQ",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Population cibl\u00e9e pour T1-PZQ"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Popula\u00e7\u00e3o alvo para T1-PZQ"
+        }
+      ],
+      "shortName": "Population Targeted for T1-PZQ",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "wMuHTPjBZt6",
+      "categoryCombo": {
+        "id": "vCcaIQnY6I4"
+      }
+    },
+    {
+      "name": "Percent of households Not able to access toilet",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Percentagem de agregados familiares sem acesso a instala\u00e7\u00f5es sanit\u00e1rias"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Pourcentage de m\u00e9nages sans acc\u00e8s aux toilettes"
+        }
+      ],
+      "shortName": "% household Not able to access toilet",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "MTzrNIs9ZBx",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of household with NO water in handwashing facility",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% sem \u00e1gua (LM)"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% sans eau (LM)"
+        }
+      ],
+      "shortName": "% HH with with NO water in handwashing facility",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "O0fia7NlNM8",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with water distance Less than 30 minutes",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% eau < 30 min"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% \u00e1gua < 30 min"
+        }
+      ],
+      "shortName": "% of households with water distance <30M",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "OLrZUrtoDVu",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with water distance Unknown",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Percentagem de agregados familiares com dist\u00e2ncia \u00e0 \u00e1gua desconhecida"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Pourcentage de m\u00e9nages avec distance \u00e0 l'eau inconnue"
+        }
+      ],
+      "shortName": "% of households with water distanceUnknown",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "zrekF7mMPbw",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with Pit latrine without slab/open pit as toilet facility",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% fosse sans dalle"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% fossa sem laje"
+        }
+      ],
+      "shortName": "% household with Pit latrine without slab/open pit",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "IuT1VrlIFEt",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with handwashing facility in the yard/plot/premises",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% LM no terreiro"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% LM dans cour"
+        }
+      ],
+      "shortName": "% HH with handwashing facility(yard/plot/premises)",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "tm6xszsOkwP",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with NO handwashing facility in the yard/plot/premises",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% sem LM"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% sans LM"
+        }
+      ],
+      "shortName": "% HH No handwashing facility(yard/plot/premises)",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "FgV28nb3Wi6",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with Pit latrine with slab",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% fosse avec dalle"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% fossa com laje"
+        }
+      ],
+      "shortName": "% household with Pit latrine with slab",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "CPTsH1LoCzH",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "trch-tf-pct-impact",
+      "name": "TF1-9 % impact survey",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "TF % impacto"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "TF % impact"
+        }
+      ],
+      "shortName": "TF1-9 % impact survey",
+      "description": "TF%, Children aged 1-9",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "akcEiBEVnD1",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households where defecation is Shared or public latrine",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% latrine partag\u00e9e"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% latrina partilhada"
+        }
+      ],
+      "shortName": "% of households where defecation Shared/P.latrine",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "P5nZtroyaIT",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "trch-tf-pct-surveillance",
+      "name": "TF1-9 % surveillance survey",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "TF % surveillance"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "TF % vigil\u00e2ncia"
+        }
+      ],
+      "shortName": "TF1-9 % surveillance survey",
+      "description": "TF%, Children aged 1-9",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "AQUFPlseXfo",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of household with soap available in handwashing facility",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% savon disponible"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% sab\u00e3o dispon\u00edvel"
+        }
+      ],
+      "shortName": "% HH with soap available in handwashingF",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "ik5tPuqMBsz",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "trch-tt-pct-surveillance",
+      "name": "TT % surveillance survey",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "TT % surveillance"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "TT % vigil\u00e2ncia"
+        }
+      ],
+      "shortName": "TT % surveillance survey",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "FGui2eCTtBG",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households where defecation is Private latrine",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% latrina privada"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% latrine priv\u00e9e"
+        }
+      ],
+      "shortName": "% of households where defecation is P.latrine",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "lnyhOmJNI2v",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with water distance More than 1 hour",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% eau > 1h"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% \u00e1gua > 1h"
+        }
+      ],
+      "shortName": "% of households with water distance >1H",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "jsTodWsekAA",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of household with water in handwashing facility",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Pourcentage de m\u00e9nages avec eau au dispositif de lavage des mains"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Percentagem de agregados familiares com \u00e1gua na instala\u00e7\u00e3o de lavagem das m\u00e3os"
+        }
+      ],
+      "shortName": "% HH with with water in handwashing facility",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "ODsMF03ue4d",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with water source in the Yard",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Pourcentage de m\u00e9nages avec une source d'eau dans la cour"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Percentagem de agregados familiares com fonte de \u00e1gua no terreiro"
+        }
+      ],
+      "shortName": "% of households with water source in the Yard",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "CoGP0rBGGtz",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "trch-tt-pct",
+      "name": "TT % impact survey",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "TT % impacto"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "TT % impact"
+        }
+      ],
+      "shortName": "TT % impact survey",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "PR3XBXGC3dL",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Full geographic coverage status",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Statut de couverture g\u00e9ographique compl\u00e8te"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Estado de cobertura geogr\u00e1fica completa"
+        }
+      ],
+      "shortName": "FGC status",
+      "description": "FGC status",
+      "formName": "Full geographic coverage status",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "optionSet": {
+        "id": "XRFjJftdyaY"
+      },
+      "id": "h8CDPK1j8Hu",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of household with NO soap available in handwashing facility",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% sans savon"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% sem sab\u00e3o"
+        }
+      ],
+      "shortName": "% HH with No soap available in handwashingF",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "jD69WoDUkCV",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households with No facilities or bush or field or surface water",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Pourcentage de m\u00e9nages sans installations, brousse, champ ou eau de surface"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Percentagem de agregados familiares sem instala\u00e7\u00f5es, mato, campo ou \u00e1gua superficial"
+        }
+      ],
+      "shortName": "% HH with No facilities/bush/field/surface water",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "DtHcIB4eQcH",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Percent of households where defecation is No structure, outside somewhere",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "% d\u00e9f\u00e9cation plein air"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "% defeca\u00e7\u00e3o ar livre"
+        }
+      ],
+      "shortName": "% of households where defecation No structure",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "KNNfPOZvdK2",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Proportion of HH with drinking water source collection time is less than 30 minutes for round trip",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Proportion de m\u00e9nages dont le temps d'acc\u00e8s \u00e0 l'eau potable est inf\u00e9rieur \u00e0 30 minutes"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Propor\u00e7\u00e3o de agregados familiares cujo tempo de acesso \u00e0 \u00e1gua pot\u00e1vel \u00e9 inferior a 30 minutos"
+        }
+      ],
+      "shortName": "% of households with water distance Between 30M-1H",
+      "legendSets": [],
+      "aggregationType": "AVERAGE",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "bNqhg5FTm3q",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Targeted SAC at lower level for SCH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - CIE alvo ao n\u00edvel inferior para EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - EAS cibl\u00e9s au niveau inf\u00e9rieur pour la SBH"
+        }
+      ],
+      "shortName": "JRSM - Targeted SAC at lower level for SCH",
+      "formName": "SAC at lower level",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "HP8ZD93TtpV",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Tablets to be procured (LF)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s \u00e0 acheter (FL)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos a adquirir (FL)"
+        }
+      ],
+      "shortName": "JRSM - Tablets to be procured (LF)",
+      "formName": "Tablets to be procured (LF)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "Ue8GV4adO31",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - LF only",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - FL apenas"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - FL seulement"
+        }
+      ],
+      "shortName": "JRSM - LF only",
+      "formName": "LF only",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "nHNk1fZ0gtv",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - SAC (PZQ)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - CIE (PZQ)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - EAS (PZQ)"
+        }
+      ],
+      "shortName": "JRSM - SAC (PZQ)",
+      "formName": "JRSM - SAC (PZQ)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "oIZGciF9Jh6",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Targeted Adult at lower level for SCH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Adultos alvo ao n\u00edvel inferior para EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Adultes cibl\u00e9s au niveau inf\u00e9rieur pour la SBH"
+        }
+      ],
+      "shortName": "JRSM - Targeted Adult at lower level for SCH",
+      "formName": "Adult at lower level",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "eiS2dGGfphP",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - LF+Oncho",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - FL+Oncho"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - FL+Onco"
+        }
+      ],
+      "shortName": "JRSM - LF+Oncho",
+      "formName": "LF+Oncho",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "QLncSrRmIs6",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Remaining in stock (PZQ)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Stock restant (PZQ)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Stock restante (PZQ)"
+        }
+      ],
+      "shortName": "JRSM - Remaining in stock (PZQ)",
+      "formName": "JRSM - Remaining in stock (PZQ)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "WkxhEzSYSxX",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Remaining in stock (LF)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Stock restante (FL)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Stock restant (FL)"
+        }
+      ],
+      "shortName": "JRSM - Remaining in stock (LF)",
+      "formName": "Remaining in stock (LF)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "C8KmCXrU0hq",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - All SAC targeted",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Todas as CIE alvo"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Tous les EAS cibl\u00e9s"
+        }
+      ],
+      "shortName": "JRSM - All SAC targeted",
+      "formName": "All SAC targeted?",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "BOOLEAN",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "e1xuLo21OET",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Select medicine for treatment of STH",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - S\u00e9lectionner le m\u00e9dicament pour le traitement des STH"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Selecionar medicamento para tratamento de HTS"
+        }
+      ],
+      "shortName": "JRSM - Select medicine for treatment of STH",
+      "formName": "Select medicine for treatment of STH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "optionSet": {
+        "id": "INkaSqEovkl"
+      },
+      "id": "rvxlz5YI6mU",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Remaining in stock (IVM)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Stock restante (IVM)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Stock restant (IVM)"
+        }
+      ],
+      "shortName": "JRSM - Remaining in stock (IVM)",
+      "formName": "Remaining in stock (IVM)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "IAbTOm7tVzf",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Bottles (3mg) 500 tablets (IVM)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacons (3mg) 500 comprim\u00e9s (IVM)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frascos (3mg) 500 comprimidos (IVM)"
+        }
+      ],
+      "shortName": "JRSM - Bottles (3mg) 500 tablets (IVM)",
+      "formName": "Bottles (3mg) 500 tablets (IVM)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "Ye915LlCO1V",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Bottle (400 mg) 200 tablets (LF)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacon (400 mg) 200 comprim\u00e9s (FL)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frasco (400 mg) 200 comprimidos (FL)"
+        }
+      ],
+      "shortName": "JRSM - Bottle (400 mg) 200 tablets (LF)",
+      "formName": "Bottle (400 mg) 200 tablets (LF)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "BBgGE0BTlbZ",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Tablets to be procured for SAC (STH)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos a adquirir para CIE (HTS)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s \u00e0 acheter pour les EAS (STH)"
+        }
+      ],
+      "shortName": "JRSM - Tablets to be procured for SAC (STH)",
+      "formName": "Tablets to be procured for SAC (STH)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "hYf5b8XAEcq",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Bottles (500 mg) 150 tablets (MBD)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frascos (500 mg) 150 comprimidos (MBD)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacons (500 mg) 150 comprim\u00e9s (MBD)"
+        }
+      ],
+      "shortName": "JRSM - Bottles (500 mg) 150 tablets (MBD)",
+      "formName": "Bottles (500 mg) 150 tablets (MBD)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "fKVZL8JNYYb",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Oncho only",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Onco apenas"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Oncho seulement"
+        }
+      ],
+      "shortName": "JRSM - Oncho only",
+      "formName": "Oncho only",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "E7j2UonXSt8",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Remaining in stock (MBD)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Stock restante (MBD)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Stock restant (MBD)"
+        }
+      ],
+      "shortName": "JRSM - Remaining in stock (MBD)",
+      "formName": "Remaining in stock (MBD)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "wbo1PtgU88U",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "Epidemiological surveys planned for the year ",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Enqu\u00eates \u00e9pid\u00e9miologiques planifi\u00e9es pour l'ann\u00e9e"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Inqu\u00e9ritos epidemiol\u00f3gicos planeados para o ano"
+        }
+      ],
+      "shortName": "Epidemiological surveys planned for the year ",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "NUMBER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "uUJJRbGsnFD",
+      "categoryCombo": {
+        "id": "RZ7C2OTs2rS"
+      }
+    },
+    {
+      "name": "JRSM - Tablets to be procured for SAC (MBD)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s \u00e0 acheter pour les EAS (MBD)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos a adquirir para CIE (MBD)"
+        }
+      ],
+      "shortName": "JRSM - Tablets to be procured for SAC (MBD)",
+      "formName": "Tablets to be procured for SAC (MBD)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "Q1kuzNh18GQ",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Bottle (400 mg) 200 tablets (STH)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Flacon (400 mg) 200 comprim\u00e9s (STH)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Frasco (400 mg) 200 comprimidos (HTS)"
+        }
+      ],
+      "shortName": "JRSM - Bottle (400 mg) 200 tablets (STH)",
+      "formName": "Bottle (400 mg) 200 tablets (STH)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "ouseg4qQroB",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Tablets to be procured (IVM)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Comprim\u00e9s \u00e0 acheter (IVM)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Comprimidos a adquirir (IVM)"
+        }
+      ],
+      "shortName": "JRSM - Tablets to be procured (IVM)",
+      "formName": "Tablets to be procured (IVM)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "m3QUuph0y20",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Adults (PZQ)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Adultes (PZQ)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Adultos (PZQ)"
+        }
+      ],
+      "shortName": "JRSM - Adults (PZQ)",
+      "formName": "JRSM - Adults (PZQ)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "EtlfNAYWfmp",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "JRSM - Remaining in stock (STH)",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "JRSM - Stock restant (STH)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "JRSM - Stock restante (HTS)"
+        }
+      ],
+      "shortName": "JRSM - Remaining in stock (STH)",
+      "formName": "Remaining in stock (STH)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "SXzJlZHISVD",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "pcn-drugs-lost",
+      "name": "Number drugs lost",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Perdidos"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Perdus"
+        }
+      ],
+      "shortName": "# drugs lost",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "k2OmpZNCiaE",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-near-expiry",
+      "name": "(K) Number of drugs near expiry",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Proches p\u00e9remption"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Pr\u00f3ximos vencimento"
+        }
+      ],
+      "shortName": "(K) Number of drugs near expiry",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "pJlvjMIVRhY",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-wasted",
+      "name": "Number drugs wasted",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Desperdi\u00e7ados"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Gaspill\u00e9s"
+        }
+      ],
+      "shortName": "# drugs wasted",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "f1U4RH51PFz",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-transferred-in",
+      "name": "Number drugs transferred-IN",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de medicamentos transferidos (entrada)"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de m\u00e9dicaments transf\u00e9r\u00e9s (entr\u00e9e)"
+        }
+      ],
+      "shortName": "# drugs transferred-IN",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "FWCGLICtBRt",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-theoretical-balance",
+      "name": "(G) Theoretical Balance",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Solde th\u00e9orique"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Saldo te\u00f3rico"
+        }
+      ],
+      "shortName": "(G) Theoretical Balance",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "sGEFdjtSCxx",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-remaining",
+      "name": "(H) Actual number of tablets remain after MDA",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Restants apr\u00e8s TDM"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Restantes ap\u00f3s ATM"
+        }
+      ],
+      "shortName": "(H) Actual number of tablets remain after MDA",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "QQhjsLUuU5m",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-issued",
+      "name": "(B) Number of tablets received",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Comprimidos recebidos"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Comprim\u00e9s re\u00e7us"
+        }
+      ],
+      "shortName": "(B) Number of tablets received",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "fLPMRui5pm3",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-available",
+      "name": "(A) Number of tablets remain from previous MDA",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Restantes ATM ant."
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Restants du TDM pr\u00e9c."
+        }
+      ],
+      "shortName": "# of tablets remain from previous MDA",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "fVjC6Nufzaf",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-transferred-OUT",
+      "name": "Number drugs transferred-OUT",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de m\u00e9dicaments transf\u00e9r\u00e9s (sortie)"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de medicamentos transferidos (sa\u00edda)"
+        }
+      ],
+      "shortName": "# drugs transferred-OUT",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "Ac56kaari9s",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-expire-date-prev",
+      "name": "Expire dates of remaining medicine from previous MDA",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Datas de validade dos medicamentos restantes da ATM anterior"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Dates de p\u00e9remption des m\u00e9dicaments restants du TDM pr\u00e9c\u00e9dent"
+        }
+      ],
+      "shortName": "Expire dates of remaining medicine previous MDA",
+      "legendSets": [],
+      "aggregationType": "NONE",
+      "valueType": "DATE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "fOJspVU48cj",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-distributed",
+      "name": "(E) Quantity provided to clients",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Quantit\u00e9 fournie"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Quantidade fornecida"
+        }
+      ],
+      "shortName": "(E) Quantity provided to clients",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "YXm7wIX4rys",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-expire-date",
+      "name": "(J) Nearest expiry date",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(J) Date de p\u00e9remption la plus proche"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(J) Data de validade mais pr\u00f3xima"
+        }
+      ],
+      "shortName": "(J) Nearest expiry date",
+      "legendSets": [],
+      "aggregationType": "MIN",
+      "valueType": "DATE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "ARIfvdBmjIx",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-expired",
+      "name": "Number drugs expired",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de m\u00e9dicaments p\u00e9rim\u00e9s"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de medicamentos vencidos"
+        }
+      ],
+      "shortName": "# drugs expired",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "copGp3RKkZa",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-drugs-available-current-mda",
+      "name": "(C) Quantity available to for current MDA",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "(C) Quantidade dispon\u00edvel para a ATM atual"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "(C) Quantit\u00e9 disponible pour le TDM actuel"
+        }
+      ],
+      "shortName": "(C) Quantity available to for current MDA",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "Do8CxBNVLCb",
+      "categoryCombo": {
+        "id": "azpCGWiAVdJ"
+      }
+    },
+    {
+      "code": "pcn-pop-nottrt-lf",
+      "name": "Population not treated - LF",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e3o tratados - FL"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Non trait\u00e9s - FL"
+        }
+      ],
+      "shortName": "# not treated - LF",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "ab2nHg8F3l2",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-referred-lf",
+      "name": "LF- Number of serious adverse events referred",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves r\u00e9f\u00e9r\u00e9s - FL"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves ref. - FL"
+        }
+      ],
+      "shortName": "LF - Number of serious adverse events referred",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "GqsI7vRLOBi",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-lf",
+      "name": "LF - Number of serious adverse events",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves - FL"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves - FL"
+        }
+      ],
+      "shortName": "LF - Number of serious adverse events",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "Ys3y7XrA1Nm",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-lf",
+      "name": "Population treated for LF",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Tratados - FL"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Trait\u00e9s - FL"
+        }
+      ],
+      "shortName": "# Treated - LF",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "MDo91FRtJur",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-referred-oncho",
+      "name": "ONCHO - Number of serious adverse events referred",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves r\u00e9f\u00e9r\u00e9s - Oncho"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves ref. - Onco"
+        }
+      ],
+      "shortName": "ONCHO - Number of serious adverse events referred",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "Nqa2pbF9jFC",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-ov-r2",
+      "name": "Population treated for Oncho round 2",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Trait\u00e9s - Oncho R2"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Tratados - Onco R2"
+        }
+      ],
+      "shortName": "# Treated - Oncho Round 2",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "lnhhqsWCDmQ",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-oncho",
+      "name": "ONCHO - Number of serious adverse events",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves - Oncho"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves - Onco"
+        }
+      ],
+      "shortName": "ONCHO - Number of serious adverse events",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "zaTYhszIKW8",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-nottrt-ov",
+      "name": "Population not treated - oncho",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e3o tratados - Onco"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Non trait\u00e9s - Oncho"
+        }
+      ],
+      "shortName": "# not treated - oncho",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "nwskIsdrNHZ",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-ov-r1",
+      "name": "Population treated for Oncho round 1",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Trait\u00e9s - Oncho R1"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Tratados - Onco R1"
+        }
+      ],
+      "shortName": "# Treated - Oncho Round 1",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "aHmt1Gjbubg",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-referred-sch",
+      "name": "SCH - Number of serious adverse events referred",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves ref. - EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves r\u00e9f\u00e9r\u00e9s - SBH"
+        }
+      ],
+      "shortName": "SCH - Number of serious adverse events referred",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "XCK9g7ERfUX",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-nottrt-sch",
+      "name": "Population not treated - SCH",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e3o tratados - EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Non trait\u00e9s - SBH"
+        }
+      ],
+      "shortName": "# not treated - SCH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "wcWXbw4U7NS",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-sch",
+      "name": "Population treated for SCH",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Trait\u00e9s - SBH"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Tratados - EBI"
+        }
+      ],
+      "shortName": "# Treated - SCH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "BdVa6Im13iq",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-sch",
+      "name": "SCH- Number of seriousadverse events",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves - EBI"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves - SBH"
+        }
+      ],
+      "shortName": "SCH - Number of serious adverse events",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "H77AhJSHs8D",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-sth-r2",
+      "name": "Population treated for STH round 2",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Tratados - HTS R2"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Trait\u00e9s - STH R2"
+        }
+      ],
+      "shortName": "# Treated - STH round 2",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "BJA5CL61r8I",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-referred-sth",
+      "name": "STH- Number of serious adverse events referred",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves ref. - HTS"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves r\u00e9f\u00e9r\u00e9s - STH"
+        }
+      ],
+      "shortName": "STH - Number of serious adverse events referred",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "LIf2Mi6FUZu",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-nottrt-sth",
+      "name": "Population not treated - STH",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Non trait\u00e9s - STH"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e3o tratados - HTS"
+        }
+      ],
+      "shortName": "# not treated - STH",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "GinJMrf7QaM",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-sth-r1",
+      "name": "Population treated for STH round 1",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# Tratados - HTS R1"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Trait\u00e9s - STH R1"
+        }
+      ],
+      "shortName": "# Treated - STH round 1",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "GkqUNJFflvt",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "pcn-sae-sth",
+      "name": "STH - Number of serious adverse events",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves - STH"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves - HTS"
+        }
+      ],
+      "shortName": "STH - Number of serious adverse events",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "FwCfmtt6hft",
+      "categoryCombo": {
+        "id": "J0cswuu7Q3l"
+      }
+    },
+    {
+      "code": "trch-persons-not-treated-chld",
+      "name": "Number of children NOT treated for Trachoma during Child MDA",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre d'enfants NON trait\u00e9s contre le trachome lors du TDM enfants"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de crian\u00e7as N\u00c3O tratadas para o tracoma durante a ATM infantil"
+        }
+      ],
+      "shortName": "#chld NOT treated for Trachoma during Child MDA",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "UknXSWs1HXd",
+      "categoryCombo": {
+        "id": "RcJlnngGLvs"
+      }
+    },
+    {
+      "code": "pcn-saer-tt-chld",
+      "name": "Trachoma - Severe adverse events referred (Child MDA)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves ref. - Tracoma cri."
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves r\u00e9f\u00e9r\u00e9s - Trachome enf."
+        }
+      ],
+      "shortName": "TT - Severe adverse events referred (Child MDA)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "cTNYcWPmwrx",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    },
+    {
+      "code": "trch-persons-treated-chld",
+      "name": "Number of children treated for Trachoma during Child MDA",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de crian\u00e7as tratadas para o tracoma durante a ATM infantil"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre d'enfants trait\u00e9s contre le trachome lors du TDM enfants"
+        }
+      ],
+      "shortName": "# of chld treated for Trachoma during Child MDA",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "SnSsTVdKTI2",
+      "categoryCombo": {
+        "id": "RcJlnngGLvs"
+      }
+    },
+    {
+      "code": "pcn-sae-tt-chld",
+      "name": "Trachoma - Severe adverse events (Child MDA)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves - Tracoma crian\u00e7as"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves - Trachome enfants"
+        }
+      ],
+      "shortName": "Trachoma - Severe adverse events (Child MDA)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "mBAUXXnB9zy",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    },
+    {
+      "name": "Trachoma - Child MDA round number",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Tracoma - N\u00famero da ronda ATM infantil"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Trachome - Num\u00e9ro du round TDM enfants"
+        }
+      ],
+      "shortName": "Trachoma - Child MDA round number",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "F73AztQYxOU",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "trch-persons-referred",
+      "name": "Number of persons referred",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de personnes r\u00e9f\u00e9r\u00e9es"
+        },
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de pessoas referenciadas"
+        }
+      ],
+      "shortName": "Number of persons referred",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "lDuoCvr7U4o",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-tr-teo",
+      "name": "Population treated for trachoma with tetracycline eye ointment",
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Trait\u00e9s - TEO"
+        },
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Tratados - TEO"
+        }
+      ],
+      "shortName": "# Treated - Trachoma w/ TEO",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "mM3a9XLtQDz",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "name": "Population treated for trachoma with Azithromycin Pediatric Oral Suspension",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Tratados - AZ suspens\u00e3o"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Trait\u00e9s - AZ suspension"
+        }
+      ],
+      "shortName": "Population treated for trac w/AZ Ped Oral Susp",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "e49ytfyq7MC",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "name": "Population treated for trachoma with Azythromycin Eye Drops",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Tratados - AZ gotas"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Trait\u00e9s - AZ collyre"
+        }
+      ],
+      "shortName": "Population treated for trachoma with AZ Eye Drops",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "IyFgOdcuZ0D",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "trch-persons-operated-other",
+      "name": "Number of persons managed for TT (other)",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "TT - Outros"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "TT - Autres"
+        }
+      ],
+      "shortName": "Number of persons managed for TT (other)",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "DFwqjzVaSTs",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    },
+    {
+      "code": "trch-persons-refused",
+      "name": "Number of persons refused",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "N\u00famero de pessoas que recusaram"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Nombre de personnes ayant refus\u00e9"
+        }
+      ],
+      "shortName": "Number of persons refused",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "uH4JOaVqPKq",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    },
+    {
+      "code": "trch-persons-operated-epilation",
+      "name": "Number of persons managed for TT by Epilation",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "TT - Epila\u00e7\u00e3o"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "TT - \u00c9pilation"
+        }
+      ],
+      "shortName": "Number of persons managed for TT by Epilation",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "EK3iUC1STyu",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    },
+    {
+      "name": "Population treated for trachoma with Azithromycin Tablets",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Tratados - AZ comprimidos"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Trait\u00e9s - AZ comprim\u00e9s"
+        }
+      ],
+      "shortName": "Population treated for trachoma with Az Tablets",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": false,
+      "id": "VjJL41sHGxg",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "pcn-pop-nottrt-tr",
+      "name": "Population not treated - trachoma",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "# N\u00e3o tratados - Tracoma"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "# Non trait\u00e9s - Trachome"
+        }
+      ],
+      "shortName": "# not treated - trachoma",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "elzSvPt0eP2",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "pcn-sae-tt",
+      "name": "Trachoma - Severe adverse events",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves - Tracoma"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves - Trachome"
+        }
+      ],
+      "shortName": "Trachoma - Severe adverse events",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "RzHbnCg5RlZ",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "pcn-pop-trt-tr-zsyrup",
+      "name": "Population treated for trachoma with zithromax syrup",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "Tratados - Zithromax"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "Trait\u00e9s - Zithromax"
+        }
+      ],
+      "shortName": "# Treated - Trachoma w/ Zithro syrup",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "T6EpV7N8c4a",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "name": "Trachoma - MDA round number",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "NAME",
+          "value": "Tracoma - N\u00famero da ronda ATM"
+        },
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "Trachome - Num\u00e9ro du round TDM"
+        }
+      ],
+      "shortName": "Trachoma - MDA round number",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "j20er6Hky3Q",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "pcn-sae-referred-tt",
+      "name": "Trachoma - Severe adverse events referred",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "EA graves ref. - Tracoma"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "EI graves r\u00e9f\u00e9r\u00e9s - Trachome"
+        }
+      ],
+      "shortName": "Trachoma - Severe adverse events referred",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "gRgHS8Ixn43",
+      "categoryCombo": {
+        "id": "d0DZqMyIoez"
+      }
+    },
+    {
+      "code": "trch-persons-operated",
+      "name": "Number of persons managed for TT by Surgery",
+      "translations": [
+        {
+          "locale": "pt",
+          "property": "SHORT_NAME",
+          "value": "TT - Cirurgia"
+        },
+        {
+          "locale": "fr",
+          "property": "SHORT_NAME",
+          "value": "TT - Chirurgie"
+        }
+      ],
+      "shortName": "Number of persons managed for TT by Surgery",
+      "legendSets": [],
+      "aggregationType": "SUM",
+      "valueType": "INTEGER",
+      "domainType": "AGGREGATE",
+      "aggregationLevels": [],
+      "zeroIsSignificant": true,
+      "id": "w5GYD7L268X",
+      "categoryCombo": {
+        "id": "APhpbHQfUnN"
+      }
+    }
+  ]
+}
