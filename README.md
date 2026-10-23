@@ -4,7 +4,7 @@ Ready-to-install DHIS2 dashboards, indicators, and data-entry forms for monitori
 
 An open Digital Public Good by **CHAI Digital Health**, with Sierra Leone's NTD programme as the model. Install it on any country's DHIS2 and adapt it.
 
-### → [Contents &amp; Data Dictionary](./docs/contents.md)  ·  [Install Guide](./docs/setup.md)  ·  [Adapt for Your Country](./docs/adaptation.md)
+### → [Contents &amp; Data Dictionary](./docs/contents.md)  ·  [Data Dictionary (Excel)](./docs/data-dictionary.xlsx)  ·  [Install Guide](./docs/setup.md)  ·  [Adapt for Your Country](./docs/adaptation.md)
 
 ---
 
@@ -34,7 +34,7 @@ Only want one part? → [Import individual pieces](./metadata/individual/).
 
 **9 dashboards · 91 indicators · 14 data-entry forms · 136 data elements** — all five diseases, at national and district level.
 
-See the full list in the **[Contents &amp; Data Dictionary](./docs/contents.md)**.
+Full list in **[Contents &amp; Data Dictionary](./docs/contents.md)**, or download the **[Excel data dictionary](./docs/data-dictionary.xlsx)** (data elements, indicator formulas, option sets).
 
 ## Docs
 

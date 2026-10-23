@@ -4,6 +4,8 @@ What's inside the package — the dashboards you get, the forms (datasets) that 
 
 **At a glance:** 9 dashboards · 113 visualisations · 91 indicators · 136 data elements · 14 datasets · 14 validation rules
 
+> 📊 **[Download the full data dictionary (Excel)](./data-dictionary.xlsx)** — every data element (with disaggregation and type), every indicator with its formula, and the coded option sets, across five sheets.
+
 ## Dashboards
 
 | Dashboard | What it shows |
