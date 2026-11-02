@@ -13,7 +13,9 @@
       "id": "t6E8GEqDYqM",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-geoconnect-id",
+      "description": "Geoconnect ID"
     },
     {
       "name": "Population Targeted for T1-ALB",
@@ -39,7 +41,9 @@
       "id": "KkF5Y1WIvXj",
       "categoryCombo": {
         "id": "vCcaIQnY6I4"
-      }
+      },
+      "code": "ntd-population-targeted-for-t1-alb",
+      "description": "Population Targeted for T1-albendazole"
     },
     {
       "code": "trch-persons-operated-target-chld",
@@ -66,7 +70,8 @@
       "id": "T8Zm4mvw6kR",
       "categoryCombo": {
         "id": "RcJlnngGLvs"
-      }
+      },
+      "description": "Number of children target for Child mass drug administration"
     },
     {
       "code": "trc-pop-treat-prv-surv",
@@ -93,7 +98,8 @@
       "id": "QRyVbCkIxuX",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "trichiasis cases managed since last survey"
     },
     {
       "code": "pcn-int-implemented-r2",
@@ -123,7 +129,8 @@
       "id": "xFdWM5vKsJF",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "preventive chemotherapy implemented - Round 2"
     },
     {
       "name": "Trachoma - Remaining MDA rounds",
@@ -149,7 +156,9 @@
       "id": "Qdf5nHLGX2k",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-trachoma-remaining-mda-rounds",
+      "description": "Trachoma - Remaining mass drug administration rounds"
     },
     {
       "code": "trch-persons-operated-target",
@@ -176,7 +185,8 @@
       "id": "mZv0Gae4aG9",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Number of Persons Targeted for trichiasis Management"
     },
     {
       "code": "pcn-pop-require-pc-tr",
@@ -203,7 +213,8 @@
       "id": "usBUcS8PZ03",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Population requiring preventive chemotherapy - trachoma"
     },
     {
       "name": "Endemicity LF",
@@ -232,7 +243,9 @@
       "id": "iQc8N62EszN",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-endemicity-lf",
+      "description": "Endemicity lymphatic filariasis"
     },
     {
       "code": "pcn-pop-require-pc-sch",
@@ -259,7 +272,8 @@
       "id": "X6o81cnhhWX",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population requiring preventive chemotherapy - schistosomiasis"
     },
     {
       "code": "pcn-pop-trgt-sth",
@@ -286,7 +300,8 @@
       "id": "t8WCZwxXfaO",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population targeted for soil-transmitted helminths and schistosomiasis treatment"
     },
     {
       "code": "pcn-pop-trgt-rem-round",
@@ -302,7 +317,8 @@
       "id": "s4WSUgUIAjr",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Remaining rounds of mass drug administration after the recent survey"
     },
     {
       "code": "pcn-pop-trgt-tr",
@@ -329,7 +345,8 @@
       "id": "KfK7lTG9ofc",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Population targeted for trachoma mass drug administration"
     },
     {
       "name": "Population Targeted for T3/STH Round 2",
@@ -356,7 +373,9 @@
       "id": "yVuMgov1svT",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "code": "ntd-population-targeted-for-t3-sth-round-2",
+      "description": "Population Targeted for T3/soil-transmitted helminths Round 2"
     },
     {
       "code": "pcn-pop-require-pc-ov",
@@ -383,7 +402,8 @@
       "id": "PQ8giF0T2Ux",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population requiring preventive chemotherapy - oncho"
     },
     {
       "name": "Endemicity SCH",
@@ -412,7 +432,9 @@
       "id": "HzSxsGkYXKH",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-endemicity-sch",
+      "description": "Endemicity schistosomiasis"
     },
     {
       "code": "trc-treatment-strategy",
@@ -442,7 +464,8 @@
       "id": "YqqujfPuG95",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "Trachoma treatment strategy"
     },
     {
       "name": "Population Targeted for MDA1",
@@ -468,7 +491,9 @@
       "id": "qoe4QWAq6jR",
       "categoryCombo": {
         "id": "vCcaIQnY6I4"
-      }
+      },
+      "code": "ntd-population-targeted-for-mda1",
+      "description": "Population Targeted for MDA1"
     },
     {
       "code": "trch-tt-backlog",
@@ -495,7 +520,8 @@
       "id": "rmuyfJ49XZO",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Total number of trichiasis backlog"
     },
     {
       "name": "Endemicity Oncho",
@@ -524,7 +550,9 @@
       "id": "SO6KWmYVD0s",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-endemicity-oncho",
+      "description": "Endemicity onchocerciasis"
     },
     {
       "code": "pcn-pop-require-pc-sth",
@@ -551,7 +579,8 @@
       "id": "q2PnpP4lNs7",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population requiring preventive chemotherapy - soil-transmitted helminths"
     },
     {
       "code": "pcn-pop-require-pc-lf",
@@ -578,7 +607,8 @@
       "id": "b1UgpNyL1Dw",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population requiring preventive chemotherapy - lymphatic filariasis"
     },
     {
       "code": "pcn-pop-trgt-lf",
@@ -605,7 +635,8 @@
       "id": "oZ9K6CP5IlC",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population targeted for lymphatic filariasis treatment"
     },
     {
       "code": "trch-treatment-request-conditionally-approved",
@@ -634,7 +665,8 @@
       "id": "TBmtCwoUyht",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "Treatment request conditionally approved"
     },
     {
       "name": "Population Targeted for MDA3",
@@ -660,7 +692,9 @@
       "id": "rcRWqBM5Oey",
       "categoryCombo": {
         "id": "vCcaIQnY6I4"
-      }
+      },
+      "code": "ntd-population-targeted-for-mda3",
+      "description": "Population Targeted for MDA3"
     },
     {
       "name": "Population Targeted for T3/STH Round 1",
@@ -687,7 +721,9 @@
       "id": "fiy6WUwGPZp",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "code": "ntd-population-targeted-for-t3-sth-round-1",
+      "description": "Population Targeted for T3/soil-transmitted helminths Round 1"
     },
     {
       "name": "Number of treatment rounds planned for the year",
@@ -716,7 +752,9 @@
       "id": "jHtmizoPBeA",
       "categoryCombo": {
         "id": "RZ7C2OTs2rS"
-      }
+      },
+      "code": "ntd-number-of-treatment-rounds-planned-for-the-yea",
+      "description": "Number of treatment rounds planned for the year"
     },
     {
       "code": "trch-treatment-request-approved",
@@ -745,7 +783,8 @@
       "id": "dID3tcl6Nyp",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "Treatment request approved"
     },
     {
       "code": "pcn-int-implemented-r1",
@@ -775,7 +814,8 @@
       "id": "KB4BsFABqgs",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "preventive chemotherapy implemented - Round 1"
     },
     {
       "name": "TF category",
@@ -804,7 +844,9 @@
       "id": "TtHSGWLyKJ5",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-tf-category",
+      "description": "trachomatous inflammation (follicular) category"
     },
     {
       "name": "NTD Population",
@@ -830,7 +872,9 @@
       "id": "HdCsmGr74nI",
       "categoryCombo": {
         "id": "vCcaIQnY6I4"
-      }
+      },
+      "code": "ntd-ntd-population",
+      "description": "NTD Population"
     },
     {
       "code": "pcn-pop-trgt-ov",
@@ -857,7 +901,8 @@
       "id": "Pp3bKCyc0vx",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population targeted for oncho treatment"
     },
     {
       "code": "trch-intervention-status",
@@ -876,7 +921,8 @@
       "id": "TDHoNyo9lqF",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "Intervention Status"
     },
     {
       "name": "Population Targeted for T2",
@@ -902,7 +948,9 @@
       "id": "dmoPqc69Rml",
       "categoryCombo": {
         "id": "vCcaIQnY6I4"
-      }
+      },
+      "code": "ntd-population-targeted-for-t2",
+      "description": "Population Targeted for T2"
     },
     {
       "code": "trc-elem-trg",
@@ -930,7 +978,8 @@
       "id": "CzAaI2i84Yp",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "trichiasis cases unkown to the health system"
     },
     {
       "code": "pcn-pop-trgt-sch",
@@ -987,7 +1036,8 @@
       "id": "lLZ9PPlGDQ0",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "Treatment request"
     },
     {
       "name": "Endemicity STH",
@@ -1016,7 +1066,9 @@
       "id": "h77trEqTOMH",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-endemicity-sth",
+      "description": "Endemicity soil-transmitted helminths"
     },
     {
       "name": "Population Targeted for T1-PZQ",
@@ -1042,7 +1094,9 @@
       "id": "wMuHTPjBZt6",
       "categoryCombo": {
         "id": "vCcaIQnY6I4"
-      }
+      },
+      "code": "ntd-population-targeted-for-t1-pzq",
+      "description": "Population Targeted for T1-praziquantel"
     },
     {
       "name": "Percent of households Not able to access toilet",
@@ -1068,7 +1122,9 @@
       "id": "MTzrNIs9ZBx",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-household-not-able-to-access-toilet",
+      "description": "Percent of households Not able to access toilet"
     },
     {
       "name": "Percent of household with NO water in handwashing facility",
@@ -1094,7 +1150,9 @@
       "id": "O0fia7NlNM8",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-hh-with-with-no-water-in-handwashing-facility",
+      "description": "Percent of household with NO water in handwashing facility"
     },
     {
       "name": "Percent of households with water distance Less than 30 minutes",
@@ -1120,7 +1178,9 @@
       "id": "OLrZUrtoDVu",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-with-water-distance-30m",
+      "description": "Percent of households with water distance Less than 30 minutes"
     },
     {
       "name": "Percent of households with water distance Unknown",
@@ -1146,7 +1206,9 @@
       "id": "zrekF7mMPbw",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-with-water-distanceunknown",
+      "description": "Percent of households with water distance Unknown"
     },
     {
       "name": "Percent of households with Pit latrine without slab/open pit as toilet facility",
@@ -1172,7 +1234,9 @@
       "id": "IuT1VrlIFEt",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-household-with-pit-latrine-without-slab-open-p",
+      "description": "Percent of households with Pit latrine without slab/open pit as toilet facility"
     },
     {
       "name": "Percent of households with handwashing facility in the yard/plot/premises",
@@ -1198,7 +1262,9 @@
       "id": "tm6xszsOkwP",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-hh-with-handwashing-facility-yard-plot-premise",
+      "description": "Percent of households with handwashing facility in the yard/plot/premises"
     },
     {
       "name": "Percent of households with NO handwashing facility in the yard/plot/premises",
@@ -1224,7 +1290,9 @@
       "id": "FgV28nb3Wi6",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-hh-no-handwashing-facility-yard-plot-premises",
+      "description": "Percent of households with NO handwashing facility in the yard/plot/premises"
     },
     {
       "name": "Percent of households with Pit latrine with slab",
@@ -1250,7 +1318,9 @@
       "id": "CPTsH1LoCzH",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-household-with-pit-latrine-with-slab",
+      "description": "Percent of households with Pit latrine with slab"
     },
     {
       "code": "trch-tf-pct-impact",
@@ -1304,7 +1374,9 @@
       "id": "P5nZtroyaIT",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-where-defecation-shared-p-latrin",
+      "description": "Percent of households where defecation is Shared or public latrine"
     },
     {
       "code": "trch-tf-pct-surveillance",
@@ -1358,7 +1430,9 @@
       "id": "ik5tPuqMBsz",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-hh-with-soap-available-in-handwashingf",
+      "description": "Percent of household with soap available in handwashing facility"
     },
     {
       "code": "trch-tt-pct-surveillance",
@@ -1385,7 +1459,8 @@
       "id": "FGui2eCTtBG",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "trichiasis % surveillance survey"
     },
     {
       "name": "Percent of households where defecation is Private latrine",
@@ -1411,7 +1486,9 @@
       "id": "lnyhOmJNI2v",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-where-defecation-is-p-latrine",
+      "description": "Percent of households where defecation is Private latrine"
     },
     {
       "name": "Percent of households with water distance More than 1 hour",
@@ -1437,7 +1514,9 @@
       "id": "jsTodWsekAA",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-with-water-distance-1h",
+      "description": "Percent of households with water distance More than 1 hour"
     },
     {
       "name": "Percent of household with water in handwashing facility",
@@ -1463,7 +1542,9 @@
       "id": "ODsMF03ue4d",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-hh-with-with-water-in-handwashing-facility",
+      "description": "Percent of household with water in handwashing facility"
     },
     {
       "name": "Percent of households with water source in the Yard",
@@ -1489,7 +1570,9 @@
       "id": "CoGP0rBGGtz",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-with-water-source-in-the-yard",
+      "description": "Percent of households with water source in the Yard"
     },
     {
       "code": "trch-tt-pct",
@@ -1516,7 +1599,8 @@
       "id": "PR3XBXGC3dL",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "description": "trichiasis % impact survey"
     },
     {
       "name": "Full geographic coverage status",
@@ -1547,7 +1631,8 @@
       "id": "h8CDPK1j8Hu",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-fgc-status"
     },
     {
       "name": "Percent of household with NO soap available in handwashing facility",
@@ -1573,7 +1658,9 @@
       "id": "jD69WoDUkCV",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-hh-with-no-soap-available-in-handwashingf",
+      "description": "Percent of household with NO soap available in handwashing facility"
     },
     {
       "name": "Percent of households with No facilities or bush or field or surface water",
@@ -1599,7 +1686,9 @@
       "id": "DtHcIB4eQcH",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-hh-with-no-facilities-bush-field-surface-water",
+      "description": "Percent of households with No facilities or bush or field or surface water"
     },
     {
       "name": "Percent of households where defecation is No structure, outside somewhere",
@@ -1625,7 +1714,9 @@
       "id": "KNNfPOZvdK2",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-where-defecation-no-structure",
+      "description": "Percent of households where defecation is No structure, outside somewhere"
     },
     {
       "name": "Proportion of HH with drinking water source collection time is less than 30 minutes for round trip",
@@ -1651,7 +1742,9 @@
       "id": "bNqhg5FTm3q",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-of-households-with-water-distance-between-30m",
+      "description": "Proportion of HH with drinking water source collection time is less than 30 minutes for round trip"
     },
     {
       "name": "JRSM - Targeted SAC at lower level for SCH",
@@ -1678,7 +1771,9 @@
       "id": "HP8ZD93TtpV",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-targeted-sac-at-lower-level-for-sch",
+      "description": "Joint Request for Selected Medicines - Targeted school-age children at lower level for schistosomiasis"
     },
     {
       "name": "JRSM - Tablets to be procured (LF)",
@@ -1705,7 +1800,9 @@
       "id": "Ue8GV4adO31",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-tablets-to-be-procured-lf",
+      "description": "Joint Request for Selected Medicines - Tablets to be procured (lymphatic filariasis)"
     },
     {
       "name": "JRSM - LF only",
@@ -1732,7 +1829,9 @@
       "id": "nHNk1fZ0gtv",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-lf-only",
+      "description": "Joint Request for Selected Medicines - lymphatic filariasis only"
     },
     {
       "name": "JRSM - SAC (PZQ)",
@@ -1759,7 +1858,9 @@
       "id": "oIZGciF9Jh6",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-sac-pzq",
+      "description": "Joint Request for Selected Medicines - school-age children (praziquantel)"
     },
     {
       "name": "JRSM - Targeted Adult at lower level for SCH",
@@ -1786,7 +1887,9 @@
       "id": "eiS2dGGfphP",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-targeted-adult-at-lower-level-for-sch",
+      "description": "Joint Request for Selected Medicines - Targeted Adult at lower level for schistosomiasis"
     },
     {
       "name": "JRSM - LF+Oncho",
@@ -1813,7 +1916,9 @@
       "id": "QLncSrRmIs6",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-lf-oncho",
+      "description": "Joint Request for Selected Medicines - lymphatic filariasis+onchocerciasis"
     },
     {
       "name": "JRSM - Remaining in stock (PZQ)",
@@ -1840,7 +1945,9 @@
       "id": "WkxhEzSYSxX",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-remaining-in-stock-pzq",
+      "description": "Joint Request for Selected Medicines - Remaining in stock (praziquantel)"
     },
     {
       "name": "JRSM - Remaining in stock (LF)",
@@ -1867,7 +1974,9 @@
       "id": "C8KmCXrU0hq",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-remaining-in-stock-lf",
+      "description": "Joint Request for Selected Medicines - Remaining in stock (lymphatic filariasis)"
     },
     {
       "name": "JRSM - All SAC targeted",
@@ -1894,7 +2003,9 @@
       "id": "e1xuLo21OET",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-all-sac-targeted",
+      "description": "Joint Request for Selected Medicines - All school-age children targeted"
     },
     {
       "name": "JRSM - Select medicine for treatment of STH",
@@ -1924,7 +2035,9 @@
       "id": "rvxlz5YI6mU",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-select-medicine-for-treatment-of-sth",
+      "description": "Joint Request for Selected Medicines - Select medicine for treatment of soil-transmitted helminths"
     },
     {
       "name": "JRSM - Remaining in stock (IVM)",
@@ -1951,7 +2064,9 @@
       "id": "IAbTOm7tVzf",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-remaining-in-stock-ivm",
+      "description": "Joint Request for Selected Medicines - Remaining in stock (ivermectin)"
     },
     {
       "name": "JRSM - Bottles (3mg) 500 tablets (IVM)",
@@ -1978,7 +2093,9 @@
       "id": "Ye915LlCO1V",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-bottles-3mg-500-tablets-ivm",
+      "description": "Joint Request for Selected Medicines - Bottles (3mg) 500 tablets (ivermectin)"
     },
     {
       "name": "JRSM - Bottle (400 mg) 200 tablets (LF)",
@@ -2005,7 +2122,9 @@
       "id": "BBgGE0BTlbZ",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-bottle-400-mg-200-tablets-lf",
+      "description": "Joint Request for Selected Medicines - Bottle (400 mg) 200 tablets (lymphatic filariasis)"
     },
     {
       "name": "JRSM - Tablets to be procured for SAC (STH)",
@@ -2032,7 +2151,9 @@
       "id": "hYf5b8XAEcq",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-tablets-to-be-procured-for-sac-sth",
+      "description": "Joint Request for Selected Medicines - Tablets to be procured for school-age children (soil-transmitted helminths)"
     },
     {
       "name": "JRSM - Bottles (500 mg) 150 tablets (MBD)",
@@ -2059,7 +2180,9 @@
       "id": "fKVZL8JNYYb",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-bottles-500-mg-150-tablets-mbd",
+      "description": "Joint Request for Selected Medicines - Bottles (500 mg) 150 tablets (mebendazole)"
     },
     {
       "name": "JRSM - Oncho only",
@@ -2086,7 +2209,9 @@
       "id": "E7j2UonXSt8",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-oncho-only",
+      "description": "Joint Request for Selected Medicines - onchocerciasis only"
     },
     {
       "name": "JRSM - Remaining in stock (MBD)",
@@ -2113,7 +2238,9 @@
       "id": "wbo1PtgU88U",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-remaining-in-stock-mbd",
+      "description": "Joint Request for Selected Medicines - Remaining in stock (mebendazole)"
     },
     {
       "name": "Epidemiological surveys planned for the year ",
@@ -2139,7 +2266,9 @@
       "id": "uUJJRbGsnFD",
       "categoryCombo": {
         "id": "RZ7C2OTs2rS"
-      }
+      },
+      "code": "ntd-epidemiological-surveys-planned-for-the-year",
+      "description": "Epidemiological surveys planned for the year "
     },
     {
       "name": "JRSM - Tablets to be procured for SAC (MBD)",
@@ -2166,7 +2295,9 @@
       "id": "Q1kuzNh18GQ",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-tablets-to-be-procured-for-sac-mbd",
+      "description": "Joint Request for Selected Medicines - Tablets to be procured for school-age children (mebendazole)"
     },
     {
       "name": "JRSM - Bottle (400 mg) 200 tablets (STH)",
@@ -2193,7 +2324,9 @@
       "id": "ouseg4qQroB",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-bottle-400-mg-200-tablets-sth",
+      "description": "Joint Request for Selected Medicines - Bottle (400 mg) 200 tablets (soil-transmitted helminths)"
     },
     {
       "name": "JRSM - Tablets to be procured (IVM)",
@@ -2220,7 +2353,9 @@
       "id": "m3QUuph0y20",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-tablets-to-be-procured-ivm",
+      "description": "Joint Request for Selected Medicines - Tablets to be procured (ivermectin)"
     },
     {
       "name": "JRSM - Adults (PZQ)",
@@ -2247,7 +2382,9 @@
       "id": "EtlfNAYWfmp",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-adults-pzq",
+      "description": "Joint Request for Selected Medicines - Adults (praziquantel)"
     },
     {
       "name": "JRSM - Remaining in stock (STH)",
@@ -2274,7 +2411,9 @@
       "id": "SXzJlZHISVD",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-jrsm-remaining-in-stock-sth",
+      "description": "Joint Request for Selected Medicines - Remaining in stock (soil-transmitted helminths)"
     },
     {
       "code": "pcn-drugs-lost",
@@ -2301,7 +2440,8 @@
       "id": "k2OmpZNCiaE",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "Number drugs lost"
     },
     {
       "code": "pcn-drugs-near-expiry",
@@ -2328,7 +2468,8 @@
       "id": "pJlvjMIVRhY",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(K) Number of drugs near expiry"
     },
     {
       "code": "pcn-drugs-wasted",
@@ -2355,7 +2496,8 @@
       "id": "f1U4RH51PFz",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "Number drugs wasted"
     },
     {
       "code": "pcn-drugs-transferred-in",
@@ -2382,7 +2524,8 @@
       "id": "FWCGLICtBRt",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "Number drugs transferred-IN"
     },
     {
       "code": "pcn-drugs-theoretical-balance",
@@ -2409,7 +2552,8 @@
       "id": "sGEFdjtSCxx",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(G) Theoretical Balance"
     },
     {
       "code": "pcn-drugs-remaining",
@@ -2436,7 +2580,8 @@
       "id": "QQhjsLUuU5m",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(H) Actual number of tablets remain after mass drug administration"
     },
     {
       "code": "pcn-drugs-issued",
@@ -2463,7 +2608,8 @@
       "id": "fLPMRui5pm3",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(B) Number of tablets received"
     },
     {
       "code": "pcn-drugs-available",
@@ -2490,7 +2636,8 @@
       "id": "fVjC6Nufzaf",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(A) Number of tablets remain from previous mass drug administration"
     },
     {
       "code": "pcn-drugs-transferred-OUT",
@@ -2517,7 +2664,8 @@
       "id": "Ac56kaari9s",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "Number drugs transferred-OUT"
     },
     {
       "code": "pcn-drugs-expire-date-prev",
@@ -2544,7 +2692,8 @@
       "id": "fOJspVU48cj",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "Expire dates of remaining medicine from previous mass drug administration"
     },
     {
       "code": "pcn-drugs-distributed",
@@ -2571,7 +2720,8 @@
       "id": "YXm7wIX4rys",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(E) Quantity provided to clients"
     },
     {
       "code": "pcn-drugs-expire-date",
@@ -2598,7 +2748,8 @@
       "id": "ARIfvdBmjIx",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(J) Nearest expiry date"
     },
     {
       "code": "pcn-drugs-expired",
@@ -2625,7 +2776,8 @@
       "id": "copGp3RKkZa",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "Number drugs expired"
     },
     {
       "code": "pcn-drugs-available-current-mda",
@@ -2652,7 +2804,8 @@
       "id": "Do8CxBNVLCb",
       "categoryCombo": {
         "id": "azpCGWiAVdJ"
-      }
+      },
+      "description": "(C) Quantity available to for current mass drug administration"
     },
     {
       "code": "pcn-pop-nottrt-lf",
@@ -2679,7 +2832,8 @@
       "id": "ab2nHg8F3l2",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population not treated - lymphatic filariasis"
     },
     {
       "code": "pcn-sae-referred-lf",
@@ -2706,7 +2860,8 @@
       "id": "GqsI7vRLOBi",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "lymphatic filariasis- Number of serious adverse events referred"
     },
     {
       "code": "pcn-sae-lf",
@@ -2733,7 +2888,8 @@
       "id": "Ys3y7XrA1Nm",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "lymphatic filariasis - Number of serious adverse events"
     },
     {
       "code": "pcn-pop-trt-lf",
@@ -2760,7 +2916,8 @@
       "id": "MDo91FRtJur",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population treated for lymphatic filariasis"
     },
     {
       "code": "pcn-sae-referred-oncho",
@@ -2787,7 +2944,8 @@
       "id": "Nqa2pbF9jFC",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "onchocerciasis - Number of serious adverse events referred"
     },
     {
       "code": "pcn-pop-trt-ov-r2",
@@ -2814,7 +2972,8 @@
       "id": "lnhhqsWCDmQ",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population treated for onchocerciasis round 2"
     },
     {
       "code": "pcn-sae-oncho",
@@ -2841,7 +3000,8 @@
       "id": "zaTYhszIKW8",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "onchocerciasis - Number of serious adverse events"
     },
     {
       "code": "pcn-pop-nottrt-ov",
@@ -2868,7 +3028,8 @@
       "id": "nwskIsdrNHZ",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population not treated - oncho"
     },
     {
       "code": "pcn-pop-trt-ov-r1",
@@ -2895,7 +3056,8 @@
       "id": "aHmt1Gjbubg",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population treated for onchocerciasis round 1"
     },
     {
       "code": "pcn-sae-referred-sch",
@@ -2922,7 +3084,8 @@
       "id": "XCK9g7ERfUX",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "schistosomiasis - Number of serious adverse events referred"
     },
     {
       "code": "pcn-pop-nottrt-sch",
@@ -2949,7 +3112,8 @@
       "id": "wcWXbw4U7NS",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population not treated - schistosomiasis"
     },
     {
       "code": "pcn-pop-trt-sch",
@@ -2976,7 +3140,8 @@
       "id": "BdVa6Im13iq",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population treated for schistosomiasis"
     },
     {
       "code": "pcn-sae-sch",
@@ -3003,7 +3168,8 @@
       "id": "H77AhJSHs8D",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "schistosomiasis- Number of seriousadverse events"
     },
     {
       "code": "pcn-pop-trt-sth-r2",
@@ -3030,7 +3196,8 @@
       "id": "BJA5CL61r8I",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population treated for soil-transmitted helminths round 2"
     },
     {
       "code": "pcn-sae-referred-sth",
@@ -3057,7 +3224,8 @@
       "id": "LIf2Mi6FUZu",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "soil-transmitted helminths- Number of serious adverse events referred"
     },
     {
       "code": "pcn-pop-nottrt-sth",
@@ -3084,7 +3252,8 @@
       "id": "GinJMrf7QaM",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population not treated - soil-transmitted helminths"
     },
     {
       "code": "pcn-pop-trt-sth-r1",
@@ -3111,7 +3280,8 @@
       "id": "GkqUNJFflvt",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "Population treated for soil-transmitted helminths round 1"
     },
     {
       "code": "pcn-sae-sth",
@@ -3138,7 +3308,8 @@
       "id": "FwCfmtt6hft",
       "categoryCombo": {
         "id": "J0cswuu7Q3l"
-      }
+      },
+      "description": "soil-transmitted helminths - Number of serious adverse events"
     },
     {
       "code": "trch-persons-not-treated-chld",
@@ -3165,7 +3336,8 @@
       "id": "UknXSWs1HXd",
       "categoryCombo": {
         "id": "RcJlnngGLvs"
-      }
+      },
+      "description": "Number of children NOT treated for Trachoma during Child mass drug administration"
     },
     {
       "code": "pcn-saer-tt-chld",
@@ -3192,7 +3364,8 @@
       "id": "cTNYcWPmwrx",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Trachoma - Severe adverse events referred (Child mass drug administration)"
     },
     {
       "code": "trch-persons-treated-chld",
@@ -3219,7 +3392,8 @@
       "id": "SnSsTVdKTI2",
       "categoryCombo": {
         "id": "RcJlnngGLvs"
-      }
+      },
+      "description": "Number of children treated for Trachoma during Child mass drug administration"
     },
     {
       "code": "pcn-sae-tt-chld",
@@ -3246,7 +3420,8 @@
       "id": "mBAUXXnB9zy",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Trachoma - Severe adverse events (Child mass drug administration)"
     },
     {
       "name": "Trachoma - Child MDA round number",
@@ -3272,7 +3447,9 @@
       "id": "F73AztQYxOU",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-trachoma-child-mda-round-number",
+      "description": "Trachoma - Child mass drug administration round number"
     },
     {
       "code": "trch-persons-referred",
@@ -3299,7 +3476,8 @@
       "id": "lDuoCvr7U4o",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Number of persons referred"
     },
     {
       "code": "pcn-pop-trt-tr-teo",
@@ -3326,7 +3504,8 @@
       "id": "mM3a9XLtQDz",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Population treated for trachoma with tetracycline eye ointment"
     },
     {
       "name": "Population treated for trachoma with Azithromycin Pediatric Oral Suspension",
@@ -3352,7 +3531,9 @@
       "id": "e49ytfyq7MC",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "code": "ntd-population-treated-for-trac-w-az-ped-oral-susp",
+      "description": "Population treated for trachoma with Azithromycin Pediatric Oral Suspension"
     },
     {
       "name": "Population treated for trachoma with Azythromycin Eye Drops",
@@ -3378,7 +3559,9 @@
       "id": "IyFgOdcuZ0D",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "code": "ntd-population-treated-for-trachoma-with-az-eye-dr",
+      "description": "Population treated for trachoma with Azythromycin Eye Drops"
     },
     {
       "code": "trch-persons-operated-other",
@@ -3405,7 +3588,8 @@
       "id": "DFwqjzVaSTs",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Number of persons managed for trichiasis (other)"
     },
     {
       "code": "trch-persons-refused",
@@ -3432,7 +3616,8 @@
       "id": "uH4JOaVqPKq",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Number of persons refused"
     },
     {
       "code": "trch-persons-operated-epilation",
@@ -3459,7 +3644,8 @@
       "id": "EK3iUC1STyu",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Number of persons managed for trichiasis by Epilation"
     },
     {
       "name": "Population treated for trachoma with Azithromycin Tablets",
@@ -3485,7 +3671,9 @@
       "id": "VjJL41sHGxg",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "code": "ntd-population-treated-for-trachoma-with-az-tablet",
+      "description": "Population treated for trachoma with Azithromycin Tablets"
     },
     {
       "code": "pcn-pop-nottrt-tr",
@@ -3512,7 +3700,8 @@
       "id": "elzSvPt0eP2",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Population not treated - trachoma"
     },
     {
       "code": "pcn-sae-tt",
@@ -3539,7 +3728,8 @@
       "id": "RzHbnCg5RlZ",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Trachoma - Severe adverse events"
     },
     {
       "code": "pcn-pop-trt-tr-zsyrup",
@@ -3566,7 +3756,8 @@
       "id": "T6EpV7N8c4a",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Population treated for trachoma with zithromax syrup"
     },
     {
       "name": "Trachoma - MDA round number",
@@ -3592,7 +3783,9 @@
       "id": "j20er6Hky3Q",
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
-      }
+      },
+      "code": "ntd-trachoma-mda-round-number",
+      "description": "Trachoma - mass drug administration round number"
     },
     {
       "code": "pcn-sae-referred-tt",
@@ -3619,7 +3812,8 @@
       "id": "gRgHS8Ixn43",
       "categoryCombo": {
         "id": "d0DZqMyIoez"
-      }
+      },
+      "description": "Trachoma - Severe adverse events referred"
     },
     {
       "code": "trch-persons-operated",
@@ -3646,7 +3840,8 @@
       "id": "w5GYD7L268X",
       "categoryCombo": {
         "id": "APhpbHQfUnN"
-      }
+      },
+      "description": "Number of persons managed for trichiasis by Surgery"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "dashboards": [
     {
-      "name": "SL NTD \u2014 1. National",
+      "name": "NTD \u2014 1. National",
       "translations": [],
       "itemConfig": {
         "insertPosition": "START"
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 2. District",
+      "name": "NTD \u2014 2. District",
       "translations": [],
       "layout": {
         "columns": []
@@ -806,7 +806,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 3. Lymphatic Filariasis (LF)",
+      "name": "NTD \u2014 3. Lymphatic Filariasis (LF)",
       "translations": [],
       "itemConfig": {
         "insertPosition": "START"
@@ -1986,7 +1986,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 4. Onchocerciasis (Oncho)",
+      "name": "NTD \u2014 4. Onchocerciasis (Oncho)",
       "translations": [],
       "restrictFilters": false,
       "allowedFilters": [],
@@ -3163,7 +3163,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 5. Schistosomiasis (SCH)",
+      "name": "NTD \u2014 5. Schistosomiasis (SCH)",
       "translations": [],
       "restrictFilters": false,
       "allowedFilters": [],
@@ -4340,7 +4340,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 6. Soil Transmitted Helminths (STH)",
+      "name": "NTD \u2014 6. Soil Transmitted Helminths (STH)",
       "translations": [],
       "restrictFilters": false,
       "allowedFilters": [],
@@ -5517,7 +5517,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 7. Trachoma",
+      "name": "NTD \u2014 7. Trachoma",
       "translations": [],
       "layout": {
         "columns": []
@@ -6378,7 +6378,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 8. Trachoma WaSH",
+      "name": "NTD \u2014 8. Trachoma WaSH",
       "translations": [],
       "layout": {
         "columns": []
@@ -6571,7 +6571,7 @@
       ]
     },
     {
-      "name": "SL NTD \u2014 9. Drug Management & Programme Planning",
+      "name": "NTD \u2014 9. Drug Management & Programme Planning",
       "translations": [],
       "layout": {
         "columns": []

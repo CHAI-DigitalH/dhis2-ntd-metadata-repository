@@ -273,6 +273,38 @@ def reapply_visualizations(session, base_url, package, assume_yes):
         print(line)
 
 
+# ── 5c. Install maps ──────────────────────────────────────────────────────────
+def reapply_maps(session, base_url, package):
+    """Maps cannot be created by the metadata importer (Hibernate rejects their nested
+    mapView refs), so PUT each map from the package after the import — the same technique
+    stage 5b uses for charts. No-op if the package ships no maps yet (see docs/maps.md)."""
+    maps = package.get("maps", [])
+    if not maps:
+        return
+    step("5c. Install maps (PUT — importer rejects them)")
+    ok, failed, errs = 0, 0, []
+    for m in maps:
+        mid = m.get("id")
+        if not mid:
+            continue
+        resp = session.put(
+            f"{base_url}/api/maps/{mid}",
+            data=json.dumps(m).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            timeout=120,
+        )
+        if resp.status_code in (200, 201, 204):
+            ok += 1
+        else:
+            failed += 1
+            if len(errs) < 10:
+                errs.append(f"    {mid}: HTTP {resp.status_code} {resp.text[:150]}")
+    print(f"  Installed {ok}/{len(maps)} maps" + (f", {failed} failed:" if failed else "."))
+    for line in errs:
+        print(line)
+    print("  Maps need district boundary geometry to render — see docs/maps.md.")
+
+
 # ── 8. Assign datasets to org units ───────────────────────────────────────────
 def assign_datasets(session, base_url, package, national_uid, entry_level, assume_yes):
     step(f"8. Assign datasets to org units (national + level {entry_level})")
@@ -370,6 +402,7 @@ def main():
 
         if not args.no_reapply_viz:
             reapply_visualizations(session, base_url, package, args.yes)
+            reapply_maps(session, base_url, package)
 
         step("6. Validation rules")
         import_stage(session, base_url, args.rules, "validation-rules", args.yes)

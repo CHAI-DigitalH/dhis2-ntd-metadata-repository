@@ -28,6 +28,11 @@ python3 tools/install.py \
 > ⚠️ **Install with `install.py`, not a plain DHIS2 import** — a manual import silently breaks the charts.
 
 Dashboards install empty and fill in once you enter data and run Analytics → [How to load your data](./docs/data-sources.md).
+
+**Just want to see it working?** Seed sample data and the charts light up:
+```bash
+python3 tools/seed_demo_data.py --base-url https://YOUR-DHIS2 --username admin --password ***** --analytics
+```
 Only want one part? → [Import individual pieces](./metadata/individual/).
 
 ## What's inside
