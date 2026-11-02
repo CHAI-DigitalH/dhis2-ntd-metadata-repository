@@ -69,18 +69,35 @@ def main():
                         v = random.choice(opts) if opts else value(de.get("valueType", "INTEGER"))
                         dvs.append({"dataElement": de["id"], "period": pe, "orgUnit": ou,
                                     "categoryOptionCombo": coc, "value": v})
+    # De-duplicate: a data element can sit in more than one dataset, which would otherwise
+    # produce duplicate (de, period, org unit, catOptCombo) rows in the payload.
+    seen, uniq = set(), []
+    for v in dvs:
+        k = (v["dataElement"], v["period"], v["orgUnit"], v["categoryOptionCombo"])
+        if k not in seen:
+            seen.add(k)
+            uniq.append(v)
+    dvs = uniq
     if not dvs:
         sys.exit("  No data values generated — are the datasets assigned to org units? Run install.py first.")
-    print(f"  Generated {len(dvs)} data values; importing...")
+    print(f"  Generated {len(dvs)} data values; importing (chunks of 5,000)...")
 
-    total = 0
-    for i in range(0, len(dvs), 20000):
-        r = s.post(f"{base}/api/dataValueSets?importStrategy=CREATE_AND_UPDATE&skipAudit=true",
-                   data=json.dumps({"dataValues": dvs[i:i + 20000]}),
-                   headers={"Content-Type": "application/json"}, timeout=300).json()
+    total, ignored, chunks = 0, 0, (len(dvs) + 4999) // 5000
+    for n, i in enumerate(range(0, len(dvs), 5000), 1):
+        try:
+            r = s.post(f"{base}/api/dataValueSets?importStrategy=CREATE_AND_UPDATE&skipAudit=true",
+                       data=json.dumps({"dataValues": dvs[i:i + 5000]}),
+                       headers={"Content-Type": "application/json"}, timeout=180).json()
+        except Exception as exc:  # noqa: BLE001 — keep seeding even if one chunk fails
+            print(f"    chunk {n}/{chunks}: request failed ({exc}); continuing")
+            continue
         c = r.get("importCount") or (r.get("response") or {}).get("importCount") or {}
-        total += c.get("imported", 0) + c.get("updated", 0)
-    print(f"  Imported/updated {total} values.")
+        got = c.get("imported", 0) + c.get("updated", 0)
+        total += got
+        ignored += c.get("ignored", 0)
+        if got == 0:
+            print(f"    chunk {n}/{chunks}: 0 imported (status {r.get('status')}, ignored {c.get('ignored', '?')})")
+    print(f"  Imported/updated {total} values" + (f" ({ignored} ignored)." if ignored else "."))
 
     if args.analytics:
         r = s.post(f"{base}/api/resourceTables/analytics?skipEvents=true&lastYears=8", timeout=60)
