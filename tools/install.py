@@ -117,13 +117,13 @@ def check_geometry(session, base_url, level):
     with_geo = sum(1 for o in ous if o.get("geometry"))
     if with_geo < len(ous):
         print(
-            f"  WARNING: {len(ous) - with_geo}/{len(ous)} level-{level} org units have no geometry.\n"
-            "           Choropleth MAPS will render blank for those until boundaries are loaded\n"
-            "           (Import/Export → GeoJSON import; sources: geoBoundaries, GADM, OCHA COD).\n"
-            "           Non-map charts are unaffected. See docs/adaptation.md."
+            f"  ⚠ MAPS: {len(ous) - with_geo}/{len(ous)} district (level-{level}) org units have no boundary geometry.\n"
+            "          Choropleth maps will be blank until you load your district boundaries (GeoJSON).\n"
+            "          → Step-by-step guide:  docs/maps.md   (free sources: geoBoundaries, GADM, OCHA COD)\n"
+            "          Everything else works without it — only the map tiles are affected."
         )
     else:
-        print(f"  All level-{level} org units carry geometry — maps will render.")
+        print(f"  Maps: all level-{level} org units carry boundary geometry — maps will render.")
 
 
 # ── 3. National root ──────────────────────────────────────────────────────────
@@ -395,6 +395,8 @@ def main():
     print("      Viewer/partner -> role 'NTD Viewer',       group  [NTD Users],                national (view)")
     print("    Also set each user's UI/DB locale (e.g. en / fr / pt).")
     print("  - Load data (docs/data-sources.md), then run Analytics before dashboards populate.")
+    print("  - Maps: load your district boundaries (GeoJSON) so choropleth maps render — see docs/maps.md")
+    print("    (the org-unit preflight above told you whether boundaries are already present.)")
     print("  - Run: python3 tools/validate_import.py --base-url {} --config {} ...".format(base_url, args.config))
 
 

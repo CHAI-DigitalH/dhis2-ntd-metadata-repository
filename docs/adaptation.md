@@ -152,6 +152,8 @@ That is why `validate_import.py`'s UID checks still pass after adaptation.
 
 ## 7. Maps and boundary geometry
 
+> **For the quick step-by-step, see [maps.md](./maps.md).** The installer also flags this at install time. The rest of this section is the background.
+
 Choropleth maps render only if your org units carry boundary **geometry** (polygons). This
 is country-specific spatial data the package cannot ship (it would be Sierra Leone's
 boundaries), so it's the one piece that stays partly manual.

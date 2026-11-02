@@ -38,7 +38,7 @@ Full list in **[Contents &amp; Data Dictionary](./docs/contents.md)**, or downlo
 
 ## Docs
 
-[Contents &amp; data dictionary](./docs/contents.md) · [Install](./docs/setup.md) · [Adapt](./docs/adaptation.md) · [Load data](./docs/data-sources.md) · [Indicators](./docs/indicators.md) · [Validation](./docs/validation.md) · [Tools](./tools/README.md)
+[Contents &amp; data dictionary](./docs/contents.md) · [Install](./docs/setup.md) · [Adapt](./docs/adaptation.md) · [Load data](./docs/data-sources.md) · [Maps &amp; boundaries](./docs/maps.md) · [Indicators](./docs/indicators.md) · [Validation](./docs/validation.md) · [Tools](./tools/README.md)
 
 ## License
 
