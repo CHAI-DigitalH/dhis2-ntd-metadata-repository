@@ -16,9 +16,14 @@ Also available separately in the parent folder: `validation_rules.json` and `acc
 
 ## Import order matters
 
-Each layer depends on the ones above it. If you import a subset by hand (DHIS2 **Import/Export** app or the API), import low numbers first (`01` → `05`). Examples:
-- "Just the data-entry forms" → `01` + `02` + `04`
-- "Just the indicators" → `01` + `02` + `03`
+Each layer depends on **all** the ones above it, so import cumulatively in number order — to get a layer, import `01` through that layer. Stop at the one you need.
+
+- Just the **data elements** → `01` + `02`
+- Just the **indicators** → `01` + `02` + `03`
+- Just the **data-entry forms** → `01` + `02` + `03` + `04` *(datasets also reference their indicators, so `03` is required)*
+- The **dashboards** → all of `01`–`05` (and use the installer to make the charts work — see below)
+
+Import each file with `importStrategy=CREATE_AND_UPDATE`. Note that `atomicMode=ALL` (the default) rejects the **whole** file if any single reference is missing, so don't skip a lower layer.
 
 ## Caveat: dashboards imported by hand will have broken charts
 
