@@ -6,6 +6,10 @@ An open Digital Public Good by **CHAI Digital Health**, with Sierra Leone's NTD 
 
 ### → [Contents &amp; Data Dictionary](./docs/contents.md)  ·  [Data Dictionary (Excel)](./docs/data-dictionary.xlsx)  ·  [Install Guide](./docs/setup.md)  ·  [Adapt for Your Country](./docs/adaptation.md)
 
+![Lymphatic Filariasis dashboard — treatment total, therapeutic coverage, and coverage/refusal trend](./docs/screenshots/lf-dashboard.png)
+
+<sub>Example: the Lymphatic Filariasis dashboard with sample data — national treatment total, therapeutic coverage %, and coverage-vs-refusal trend by year.</sub>
+
 ---
 
 ## Install
