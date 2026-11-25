@@ -368,6 +368,72 @@ def generate_cocs(session, base_url):
           f"  COC update returned {resp.status_code} (non-fatal; run it from Data Administration if needed).")
 
 
+# ── 11. Maps — district boundaries ────────────────────────────────────────────
+def setup_maps_geometry(session, base_url, args, entry_level):
+    """Optional: load district boundary geometry (GeoJSON) so choropleth maps render.
+    Interactive 'do you want maps?' prompt, or non-interactive via --geojson.
+    Uses POST /api/organisationUnits/geometry (DHIS2 2.42). See docs/maps.md."""
+    step("11. Maps — district boundaries (optional)")
+    resp = session.get(
+        f"{base_url}/api/organisationUnits.json?fields=id,geometry&filter=level:eq:{entry_level}&paging=false",
+        timeout=60,
+    )
+    ous = resp.json().get("organisationUnits", []) if resp.status_code == 200 else []
+    have = sum(1 for o in ous if o.get("geometry"))
+    if ous and have == len(ous):
+        print(f"  All {len(ous)} district org units already have boundaries — maps will render. Skipping.")
+        return
+
+    path, match, prop = args.geojson, args.geojson_match, args.geojson_prop
+    if not path:
+        if args.yes:  # non-interactive run, no file given
+            print(f"  {len(ous) - have}/{len(ous)} district org units have no boundaries.")
+            print("  Load them later:  --geojson <file> [--geojson-match name|code|id] [--geojson-prop <feature property>]")
+            print("  Guide + free sources (geoBoundaries, GADM, OCHA COD): docs/maps.md")
+            return
+        if input(f"  {len(ous) - have}/{len(ous)} districts have no boundaries. Load a GeoJSON file now? [y/N] ").strip().lower() != "y":
+            print("  Skipped — load boundaries later via docs/maps.md or the --geojson option.")
+            return
+        path = input("  Path to your district-boundaries GeoJSON file: ").strip()
+        match = input("  Match features to org units by [name/code/id] (default name): ").strip().lower() or "name"
+        if match in ("name", "code"):
+            prop = input(f"  GeoJSON feature property holding the org-unit {match} (e.g. shapeName): ").strip() or match
+
+    if not os.path.isfile(path):
+        print(f"  File not found: {path} — skipping maps (load later via docs/maps.md).")
+        return
+    with open(path, "rb") as fh:
+        data = fh.read()
+
+    gid = "true" if (match == "id" and not prop) else "false"
+    params = f"orgUnitProperty={match}&geoJsonId={gid}"
+    gprop = prop or (None if match == "id" else match)
+    if gprop:
+        params += f"&geoJsonProperty={gprop}"
+
+    def post(dry):
+        return session.post(
+            f"{base_url}/api/organisationUnits/geometry?{params}&dryRun={'true' if dry else 'false'}",
+            data=data, headers={"Content-Type": "application/geo+json"}, timeout=300,
+        )
+
+    try:
+        dj = post(True).json()
+    except Exception:  # noqa: BLE001
+        print("  GeoJSON dry-run failed to parse — check the file; skipping maps (non-fatal).")
+        return
+    ic = dj.get("importCount") or (dj.get("response") or {}).get("importCount") or {}
+    print(f"  [geojson dry-run] matched {ic.get('imported', 0) + ic.get('updated', 0)} org units, "
+          f"{ic.get('ignored', '?')} features unmatched.")
+    if (ic.get("imported", 0) + ic.get("updated", 0)) == 0:
+        print("  Nothing matched — check --geojson-match / --geojson-prop against your file, then retry. (Non-fatal.)")
+        return
+    rj = post(False).json()
+    ric = rj.get("importCount") or (rj.get("response") or {}).get("importCount") or {}
+    print(f"  Boundaries loaded: {ric.get('imported', 0) + ric.get('updated', 0)} org units. "
+          "Maps will render after the next analytics run.")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Install the NTD metadata package on a fresh DHIS2")
     add_auth_args(parser)
@@ -382,6 +448,12 @@ def main():
     parser.add_argument("--no-scaffold", action="store_true", help="Skip importing roles/groups")
     parser.add_argument("--no-assign", action="store_true", help="Skip dataset org-unit assignment")
     parser.add_argument("--no-sharing", action="store_true", help="Skip applying sharing")
+    parser.add_argument("--no-maps", action="store_true", help="Skip the optional maps/boundary step")
+    parser.add_argument("--geojson", help="District-boundaries GeoJSON file to load (for choropleth maps)")
+    parser.add_argument("--geojson-match", choices=["id", "code", "name"], default="name",
+                        help="Match GeoJSON features to org units by this org-unit property (default: name)")
+    parser.add_argument("--geojson-prop", help="GeoJSON feature property holding the org-unit identifier "
+                        "(omit to match the feature 'id')")
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -418,6 +490,9 @@ def main():
             apply_sharing(session, base_url, package)
 
         generate_cocs(session, base_url)
+
+        if not args.no_maps:
+            setup_maps_geometry(session, base_url, args, entry_level)
     except Exception as exc:  # noqa: BLE001 — top-level guard for a CLI
         sys.exit(f"\nInstaller failed: {exc}")
 
@@ -428,8 +503,8 @@ def main():
     print("      Viewer/partner -> role 'NTD Viewer',       group  [NTD Users],                national (view)")
     print("    Also set each user's UI/DB locale (e.g. en / fr / pt).")
     print("  - Load data (docs/data-sources.md), then run Analytics before dashboards populate.")
-    print("  - Maps: load your district boundaries (GeoJSON) so choropleth maps render — see docs/maps.md")
-    print("    (the org-unit preflight above told you whether boundaries are already present.)")
+    print("  - Maps: if you skipped the boundaries step, load district boundaries later to get choropleth maps")
+    print("    — re-run with --geojson <file>, or follow docs/maps.md (geoBoundaries, GADM, OCHA COD).")
     print("  - Run: python3 tools/validate_import.py --base-url {} --config {} ...".format(base_url, args.config))
 
 

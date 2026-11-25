@@ -2,6 +2,13 @@
 
 All notable changes to the NTD DHIS2 Metadata Package.
 
+## Unreleased
+
+- **Installer:** interactive maps/boundary-geometry step (step 11) with GeoJSON upload — `--geojson`, `--geojson-match {id,code,name}`, `--geojson-prop`; plus stage 5c that PUTs maps (no-op until maps ship).
+- **ESPEN Connector:** pull skeleton (`apps/espen-connector/src/engine/pullFromEspen.js`) — the ESPEN → DHIS2 return path, alongside the existing push.
+- **Handoff docs:** `docs/handoff/` (HANDOFF, MAINTAINER, ROADMAP, ESPEN), plus `docs/demo.md` and `docs/translations.md`.
+- **License:** finalised the recommendation — code under MIT, metadata + docs under CC BY 4.0.
+
 ## v1.0 — 2026-11-02
 
 First tagged release: a validated, installable package for the five preventive-chemotherapy NTDs (LF, Oncho, SCH, STH, Trachoma).

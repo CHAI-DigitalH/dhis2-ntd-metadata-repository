@@ -47,8 +47,10 @@ Full list in **[Contents &amp; Data Dictionary](./docs/contents.md)**, or downlo
 
 ## Docs
 
-[Contents &amp; data dictionary](./docs/contents.md) · [Install](./docs/setup.md) · [Adapt](./docs/adaptation.md) · [Load data](./docs/data-sources.md) · [Maps &amp; boundaries](./docs/maps.md) · [Indicators](./docs/indicators.md) · [Validation](./docs/validation.md) · [Tools](./tools/README.md)
+[Contents &amp; data dictionary](./docs/contents.md) · [Install](./docs/setup.md) · [Adapt](./docs/adaptation.md) · [Load data](./docs/data-sources.md) · [Demo with data](./docs/demo.md) · [Maps &amp; boundaries](./docs/maps.md) · [Indicators](./docs/indicators.md) · [Validation](./docs/validation.md) · [Translations](./docs/translations.md) · [Tools](./tools/README.md)
+
+**Taking this project over?** → [docs/handoff/](./docs/handoff/) (status, maintainer guide, roadmap, ESPEN).
 
 ## License
 
-Open Digital Public Good by CHAI Digital Health. License to be finalised — see [CONTRIBUTING](./docs/CONTRIBUTING.md).
+Open Digital Public Good by **CHAI Digital Health**. Code (MIT) and metadata + docs (CC BY 4.0) — see [LICENSE](./LICENSE). Taking this over? Start at [docs/handoff/](./docs/handoff/).
